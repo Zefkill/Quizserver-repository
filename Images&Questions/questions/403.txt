@@ -1,0 +1,38 @@
+:ID:
+403
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+The amount of information that can be processed by a physical system is limited by the system's bandwidth.
+:Feedback:
+Limitation of the rate of change of signals can be regarded as an essential physical limitation of information processing.
+:Hint:
+See Chapter 1.
+:Pool:
+Shannon
+:TRUE:
+true
+:TrueFeedback:
+Correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+1,
+:Tags:
+Shannon,
+:Categories:
+SE,EE3C11-Chap1,EE3C11-2022-1-2,all,

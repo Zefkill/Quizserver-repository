@@ -1,0 +1,80 @@
+:ID:
+63
+:Type:
+MC
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The short-circuit output current of a sensor accurately represents the information at its input. An amplifier is used to pass the source information to an AD converter. If the source impedance is accurately known and does not depend on the signal, then:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+ampTypes-2
+:NumberOptions:
+4
+:Option:
+the ideal value of the input impedance of this amplifier has to be infinite.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+the ideal value of the input impedance of this amplifier has to be zero.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+the input impedance of this amplifier can have any value.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+the input v-i characteristic of the amplifier should be linear.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.2,
+:Tags:
+amplification,
+:Categories:
+all,EE3C11-2022-2,EE3C11-2022-2-2,EE3C11-Chap2,

@@ -1,0 +1,152 @@
+:ID:
+301
+:Type:
+MS
+:Title:
+
+:Points:
+5
+:Time:
+5
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Select the correct statements from the list below.
+:Feedback:
+See option feedback.
+:Hint:
+Study Chapter 13.
+:Pool:
+CDstage
+:NumberOptions:
+5
+:Option:
+None of the other statements is correct.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+The CD stage can be considered a non-energic feedback stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The CD stage has the lowest output impedance when driven from an ideal current source.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The CD stage has the largest input impedance when its output is left open.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The backgate effect increases the loop gain in a CD stage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The voltage transfer of a CD stage has a right half-plane zero.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+In the CD stage, the drain-gate capacitance introduces a phantom zero in the source-to-load voltage transfer.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The equivalent-input noise sources of the CD stage equal those of an equally biased CS stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+A shorted CD stage has zero loop gain.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The transimpedance factor of a CD stage has a pole in the origin.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+13,
+:Tags:
+
+:Categories:
+all,CDstage,

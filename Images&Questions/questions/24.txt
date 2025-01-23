@@ -1,0 +1,38 @@
+:ID:
+24
+:Type:
+TF
+:Title:
+24-1
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The noise behavior of a noisy two-port can be modeled with a noise-free two-port, one noise voltage source in series with its input port and one noise current source in parallel with its input port.
+:Feedback:
+
+:Hint:
+
+:Pool:
+noise-2
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,2.4,
+:Tags:
+noise,
+:Categories:
+EE3C11-2022-2-3,all,EE3C11-Chap2,EE3C11-2022-2,

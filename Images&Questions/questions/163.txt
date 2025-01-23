@@ -1,0 +1,81 @@
+:ID:
+163
+:Type:
+MC
+:Title:
+
+:Points:
+22
+:Time:
+5
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+In the step-by-step design approach for application specific amplifiers the evaluation of the feasibility of the requirements for in input referred noise of the amplifier in the required technology is one of the first design steps.
+Select the reason why we work this way.
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+
+:NumberOptions:
+4
+:Option:
+We need to know the operating point of the input stage before we can proceed with any other design step.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+No error reduction technique can reduce the input referred noise of the amplifier so if it is not feasible the amplifier cannot be designed in the required technology.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+We need to know the input device type and geometry before we can proceed with any other design step.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+We need to know the device type, the geomery and the operating point of the input stage before we can proceed with any other design step.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+14,
+:Tags:
+design methodology,
+:Categories:
+all,

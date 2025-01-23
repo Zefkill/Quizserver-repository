@@ -1,0 +1,38 @@
+:ID:
+8
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+The idealized amplifier (concept) has zero output impedance and infinite input impedance.
+:Feedback:
+
+:Hint:
+
+:Pool:
+ampTypes
+:TRUE:
+false
+:TrueFeedback:
+This is not correct.
+:FALSE:
+true
+:FalseFeedback:
+This is correct!
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.1,
+:Tags:
+amplification,
+:Categories:
+EE3C11-level-1,ampTypes,all,EE3C11-Chap2,EE3C11-2022-1-2,

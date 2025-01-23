@@ -1,0 +1,82 @@
+:ID:
+51
+:Type:
+MC
+:Title:
+51-1
+:Points:
+55
+:Time:
+20
+:Difficulty:
+5
+:Image:
+vAmpOpamp.svg
+:QuestionText:
+The figure above on the left shows the circuit of a negative feedback voltage amplifier with an operational amplifier. The amplifier is driven from a resistive voltage source with a source resistance of 100$\Omega$ and loaded with a 1k$\Omega$ resistor. The ideal gain of the circuit equals 10. The first-order, -3dB low-pass cut-off frequency of this amplifier should be at least 1MHz. At low frequencies the transfer should approximate the ideal gain within 0.1%. The noise figure of the amplifier for the given source should maximally amount 3dB.
+The figure on the right shows the equivalent small-signal model of the operational amplifier. It has a DC gain $A_0$, an input capacitance $C_i$, one pole and a GB product $\mathrm{GB}$.
+Please select the valid set of minimum requirements for the operational amplifier and for $R_1$ and $R_2$ from the list below:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+OpAmpSelectBW
+:NumberOptions:
+4
+:Option:
+$\mathrm{GB}\geq 10$MHz and $R_1\leq 1100\Omega$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\mathrm{GB}\geq 10$MHz and $C_i\leq 80$pF and $R_1\leq 1100\Omega$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\mathrm{GB}\geq 11$MHz and $C_i\ll 80$pF and $R_o\leq 900\Omega$ and $A_0\geq 20000$ and $R_1\leq 1100\Omega$
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\mathrm{GB}\geq 10$MHz and $C_i\ll 80$pF and $R_o\leq 1k\Omega$ and $A_0\geq 10000$ and $R_1\leq 1100\Omega$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+11,12,
+:Tags:
+amplifier bandwidth,
+:Categories:
+all,EE3C11-Chap11,EE3C11-Chap12,

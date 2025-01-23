@@ -1,0 +1,80 @@
+:ID:
+153
+:Type:
+MC
+:Title:
+153-1
+:Points:
+12
+:Time:
+12
+:Difficulty:
+4
+:Image:
+
+:QuestionText:
+An electric motor delivers a torque that is accurately related to its driving electric current. A voltage output DAC with a very low but not well-defined output impedance delivers the torque set point for the motor. At a DAC output voltage of 5V, the motor should be driven with a 2A current. An amplifier will be used to convert the DAC voltage into a current that drives the motor. Give the T1 matrix of the two-port model of this amplifier.
+:Feedback:
+In order to make the driving current of the motor independent of its voltage, the motor needs to be driven from an infinite impedance. Since the driving impedance of the voltage output DAC is not accurately known, the input impedance of the amplifier should also be infinite. This is achieved if $B$ is the only nonzero parameter. Its value should be the ratio of the DAC voltage and the corresponding value of the motor current: 2.5 [S].
+:Hint:
+See section 2.3.
+:Pool:
+ABCD-2
+:NumberOptions:
+4
+:Option:
+$\left(\begin{array}{cc} 0 & 0\\ 0.4 & 0 \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+The opposite parameter: $C$ defines the current-to-voltage transfer, and the wrong value.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 0 & 0.4\\ 0 & 0 \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+Correct parameter, but the reciprocal of its required value.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 0 & 0\\ 2.5 & 0 \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+The opposite parameter: $C$ defines the current-to-voltage transfer.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 0 & 2.5\\ 0 & 0 \end{array} \right) $
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.3,
+:Tags:
+amplifier types,
+:Categories:
+EE3C11-2022-4-3,all,EE3C11-Chap2,0,ABCD-2,EE3C11-3-ABCD,

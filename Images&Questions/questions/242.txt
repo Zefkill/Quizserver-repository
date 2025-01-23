@@ -1,0 +1,131 @@
+:ID:
+242
+:Type:
+MC
+:Title:
+242-1
+:Points:
+8
+:Time:
+8
+:Difficulty:
+3
+:Image:
+
+:QuestionText:
+The T1 two-port matrix of an amplifier equals $\left(\begin{array}{cc} 0 & B\\ 0 & 0 \end{array} \right)$. 
+The amplifier is driven from a voltage source with a source resistance of $R_s$.
+The load information is the voltage $V_{\ell}$ across a resistor with a resistance of $R_{\ell}$, which is connected to the output port of the amplifier. 
+Give the value of the source-load voltage transfer of this amplifier.
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+ABCD-3
+:NumberOptions:
+4
+:Option:
+1
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+R_ell/B
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+R_ell/R_s
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+R_s/B
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:newParameter:
+B
+:paramMin:
+100
+:paramMax:
+1000
+:paramValue:
+
+:paramUnits:
+\Omega
+:paramDescription:
+Coefficient of the T1 matrix
+:paramVisible:
+1
+:paramNoValues:
+10
+:newParameter:
+R_s
+:paramMin:
+1
+:paramMax:
+10
+:paramValue:
+
+:paramUnits:
+\Omega
+:paramDescription:
+Source resistance
+:paramVisible:
+1
+:paramNoValues:
+10
+:newParameter:
+R_ell
+:paramMin:
+10
+:paramMax:
+100
+:paramValue:
+
+:paramUnits:
+\Omega
+:paramDescription:
+Load resistance
+:paramVisible:
+1
+:paramNoValues:
+10
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.3,
+:Tags:
+T1 matrix,
+:Categories:
+all,EE3C11-Chap2,EE3C11-2022-3-2,EE3C11-2022-3,ABCD-3,

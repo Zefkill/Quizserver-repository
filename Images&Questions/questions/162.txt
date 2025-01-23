@@ -1,0 +1,80 @@
+:ID:
+162
+:Type:
+MC
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The insertion of impedances in series or in parallel with the signal path at the output of an amplifier reduces the power efficiency of this amplifier because:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+FBcapabilities
+:NumberOptions:
+4
+:Option:
+they dissipate power.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+they increase the losses in the amplifier.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+they dissipate power and they increase the losses in the amplifier.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+they increase the losses in the amplifier and they may dissipate power themselves.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+7.1,
+:Tags:
+negative feedback,
+:Categories:
+all,EE3C11-2022-2,EE3C11-2022-2-1,EE3C11-Chap7,

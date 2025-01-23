@@ -1,0 +1,106 @@
+:ID:
+308
+:Type:
+MS
+:Title:
+
+:Points:
+15
+:Time:
+15
+:Difficulty:
+5
+:Image:
+antennaAmpDiffStageRphzLphz.svg
+:QuestionText:
+The figure above shows a circuit of an active antenna with a dual-stage controller. The bandwidth of the voltage transfer is about 1GHz, and the input stage is optimized for noise ($c_{iss}=1.5C_A$), where the antenna capacitance $C_A=5$pF. The operating current and the inversion coefficient of the input stage are designed such that the noise floor of the source-referred noise is $4\cdot 10^{-18} \left[ \frac{V^2}{Hz} \right]$, and the corner frequency of the 1/f noise is below 10kHz.
+In order to reduce the influence of high-frequency interference, an inductor with a value $L_{phz}$, and a resistor with value $R_{phz}$ are inserted in series with the input of the amplifier. Their values are selected such that a second-order bandwidth limitation with an MFM characteristic is obtained at 30MHz.
+Select the effect of the insertion of the inductor on the noise performance of the active antenna.
+:Feedback:
+See option feedback
+:Hint:
+
+:Pool:
+ActiveAntennaControllerBwLimit
+:NumberOptions:
+4
+:Option:
+The effect of the inductance on the noise can be ignored.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+Insertion of this inductor increases the noise floor in the source-referred spectrum $\left[ \frac{V^2}{Hz}\right]$.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Insertion of this resistor introduces a term proportional with the frequency in the source-referred spectrum $\left[ \frac{V^2}{Hz}\right]$.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Insertion of this resistor introduces a term proportional with $f^4$ in the source-referred spectrum $\left[ \frac{V^2}{Hz}\right]$.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Insertion of this resistor introduces a term proportional with $f^3$ in the source-referred spectrum $\left[ \frac{V^2}{Hz}\right]$.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Insertion of this resistor introduces a term proportional with $f^2$ in the source-referred spectrum $\left[ \frac{V^2}{Hz}\right]$.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+14,19,12,
+:Tags:
+noise,frequency compensation,
+:Categories:
+all,activeAntennaControllerBwLimit,examEE4109AAnoWR,examEE4109AntennaAmp,

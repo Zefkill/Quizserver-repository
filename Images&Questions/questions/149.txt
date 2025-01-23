@@ -1,0 +1,38 @@
+:ID:
+149
+:Type:
+TF
+:Title:
+149-1
+:Points:
+12
+:Time:
+12
+:Difficulty:
+4
+:Image:
+
+:QuestionText:
+The open-circuit voltage of a signal source with an impedance of 50$\Omega$ equals 1V$_{\text{RMS}}$. The information of this source needs to be copied to a load. A source voltage of 1V$_{\text{RMS}}$ should evoke a load voltage of 10V$_{\text{RMS}}$. The load impedance equals 50k$\Omega$ and the frequency range of the signal is $10^{2}\cdots10^{4}$Hz. A transformer can be used to perform this information processing task.
+:Feedback:
+
+:Hint:
+
+:Pool:
+
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.3,
+:Tags:
+amplification,
+:Categories:
+all,EE3C11-Chap2,

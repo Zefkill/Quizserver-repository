@@ -1,0 +1,116 @@
+:ID:
+251
+:Type:
+MS
+:Title:
+
+:Points:
+8
+:Time:
+8
+:Difficulty:
+3
+:Image:
+pz2.svg
+:QuestionText:
+Consider the network shown in the figure and select the correct statement(s) below.
+:Feedback:
+The network has two poles, one at about -1kHz and one at about -40MHz, a zero at -200MHz, a DC transfer of 10k$\Omega$ and a high-frequency transfer of 20$\Omega$.
+:Hint:
+See Chapter 18.
+:Pool:
+PZnum
+:NumberOptions:
+4
+:Option:
+The circuit has a DC transfer of 10k$\Omega$.
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+None of these statements is true.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+The circuit has a pole at -40MHz.
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The circuit has a pole at -1kHz.
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The circuit has a zero at -200MHz.
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+At very high frequencies, the transfer of this circuit approaches 20$\Omega$.
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The circuit has one pole in the origin.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not true.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+18,
+:Tags:
+poles and zeros,
+:Categories:
+all,EE3C11-2022-3,pz,

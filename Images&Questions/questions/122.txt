@@ -1,0 +1,82 @@
+:ID:
+122
+:Type:
+MC
+:Title:
+
+:Points:
+33
+:Time:
+15
+:Difficulty:
+3
+:Image:
+biasingConcepts-A.svg
+:QuestionText:
+Figure A shows the signal path diagram of a two-stage negative feedback voltage follower. The signal source is $V_s$ has an impedance $Z_s$. The load voltage $V_{\ell}$ is the voltage across $Z_{\ell}$. The frequency range of interest does not include frequencies in the vicinity of zero.
+Figure B and C show two proposals for the biased circuit. The values of the DC bias sources are such that the operating conditions of the two stages are as required. The capacitances $C_i$ and $C_o$ as well as resistance $R_G$ are assumed to be large enough: their influence on the source-to-load transfer in the frequency range of interest can be ignored.
+Which of these two circuits correctly implements the signal path diagram from figure A?
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+
+:NumberOptions:
+4
+:Option:
+Both circuits
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+The circuit from figure B
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+The circuit from figure C
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+None of the two circuits
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+15,
+:Tags:
+biasing,
+:Categories:
+all,

@@ -1,0 +1,81 @@
+:ID:
+199
+:Type:
+MS
+:Title:
+
+:Points:
+44
+:Time:
+15
+:Difficulty:
+4
+:Image:
+
+:QuestionText:
+Consider an amplifier of which the output stage is a N channel CS stage with its drain current provided by a P channel current source. An alternative configuration uses a complementary-parallel stage as output stage. The drive and load conditions of both stages are considered to be equal. 
+Which of the following statements is always correct (independent of the quiescent current of the stage):
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+
+:NumberOptions:
+4
+:Option:
+The ratio of the transconductance and the quiescent current of the complementary-parallel stage is larger than that of the CS stage.
+:OptionPoints:
+50
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+The ratio of the cut-off frequency and the quiescent current of the complementary-parallel stage is smaller than that of the CS stage.
+:OptionPoints:
+50
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+The distortion of the complementary parallel stage is lower than that of the CS stage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+The power efficiency of the complementary parallel stage is better than that of the CS stage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+4,6,14,5,
+:Tags:
+balancing,
+:Categories:
+all,

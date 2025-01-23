@@ -1,0 +1,80 @@
+:ID:
+367
+:Type:
+MC
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+pzStep4.svg
+:QuestionText:
+The figure above shows a pole-zero pattern of the transfer function of a system. On the right four unit step responses are shown. Select which of the step responses corresponds with the pole-zero pattern on the left.
+:Feedback:
+See option feedback
+:Hint:
+Study Chapter 17.
+:Pool:
+PZstep
+:NumberOptions:
+4
+:Option:
+A
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+B
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+C
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+D
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+17,
+:Tags:
+poles and zeros,system modeling,
+:Categories:
+PZstep,pz,all,EE3C11-2022-2-4,EE3C11-2022-2,

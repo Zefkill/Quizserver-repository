@@ -1,0 +1,152 @@
+:ID:
+299
+:Type:
+MS
+:Title:
+
+:Points:
+5
+:Time:
+5
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+Select the correct statements from the list below.
+:Feedback:
+See option feedback.
+:Hint:
+Study Chapter 13.
+:Pool:
+feedbackStages
+:NumberOptions:
+5
+:Option:
+None of the other statements is correct.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+The equivalent-input noise sources of single-transistor non-energic negative feedback stages equals that of an equally biased CS stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The equivalent-input noise sources of a CD stage equals that of an equally biased CS stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The equivalent-input noise sources of a CG stage equals that of an equally biased CS stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The equivalent-input noise sources of a shunt stage equals that of an equally biased CS stage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The equivalent-input noise sources of a series stage equals that of an equally biased CS stage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The current drive capability of a complementary-parallel connected local feedback stage can exceed its quiescent current.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The current drive capability of an anti-series connected local feedback stage can exceed its quiescent current.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The equivalent-input offset of a local feedback stage is lower than that of an equally biased CS stage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The equivalent-input offset of a balanced local feedback stage can be lower than that of an equally biased CS stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+13,
+:Tags:
+
+:Categories:
+all,feedbackStages,

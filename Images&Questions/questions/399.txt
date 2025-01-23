@@ -1,0 +1,80 @@
+:ID:
+399
+:Type:
+MS
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Select the correct statements about the asymptotic-gain feedback model.
+:Feedback:
+See option feedback
+:Hint:
+
+:Pool:
+FBmodel
+:NumberOptions:
+4
+:Option:
+The negative value of the loop gain indicates negative feedback,
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The asymptotic-gain equals the ideal gain.
+:OptionPoints:
+0
+:OptionFeedback:
+This is only the case if the loop gain reference variable is selected such that the direct transfer is much smaller than the ideal gain and the controller obtains nullor properties at infinite loop gain.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The direct transfer can be neglected.
+:OptionPoints:
+0
+:OptionFeedback:
+This is only the case if the loop gain reference has been selected properly.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Non of the above options is required.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+10,
+:Tags:
+
+:Categories:
+all,EE3C11-2022-2,EE3C11-2022-2-1,EE3C11-Chap10,

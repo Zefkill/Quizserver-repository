@@ -1,0 +1,165 @@
+:ID:
+266
+:Type:
+MS
+:Title:
+
+:Points:
+5
+:Time:
+5
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Balancing can be regarded as an error-reduction technique.
+Select the correct statements from the list below.
+:Feedback:
+See option feedback.
+:Hint:
+Study Chapter 6
+:Pool:
+balanceConcept
+:NumberOptions:
+4
+:Option:
+None of the other statements is true.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+With balancing, the equivalent input offset can be reduced.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Balancing can be used to reduce the noise figure of an amplifier.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Balancing can be used to reduce the gain inaccuracy of an amplifier.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Balancing can be used to improve the bandwidth of an amplifier.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Balancing can be used to reduce the even-order nonlinearity of an amplifier.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Balancing can be used to reduce the odd-order nonlinearity of an amplifier.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The (bipolar) current-drive capability of a complementary parallel stage can exceed its quiescent current.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The peak value of the output current of a differential pair is limited to the quiescent current of the devices.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The bias voltages of the devices in an anti-series stage are observable in its differential-mode input and output voltage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The quiescent currents in the complementary parallel stage can be regarded as common-mode currents.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+IC,EE4109,AE1,EE3C11,
+:Chapters:
+6,
+:Tags:
+balancing,
+:Categories:
+balanceConcept,EE3C11-2022-2,all,

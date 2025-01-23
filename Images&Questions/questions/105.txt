@@ -1,0 +1,80 @@
+:ID:
+105
+:Type:
+MC
+:Title:
+105-1
+:Points:
+16
+:Time:
+16
+:Difficulty:
+5
+:Image:
+
+:QuestionText:
+An inductive signal voltage source with a source inductance of 5$\mu$H is connected to the input of an amplifier of which the noise behavior is modeled with an equivalent-input noise voltage source and an equivalent-input noise current source. The spectral densities of both noise sources are frequency-independent (white noise). Noise measurements of this combination show that the spectral density of the total source-referred voltage noise at high frequencies exceeds the specified limits. At low frequencies the spectral density is just within specifications. What is your advice for solving this problem?
+:Feedback:
+When driven from an inductive voltage source, the contribution of the equivalent input current source of an amplifier increases with frequency. In this particular case all noise sources are 'white' and the observed increase of the source-referred noise can only be caused by the effect described above. Hence, the only solution is to reduce the equivalent input current noise of this amplifier.
+:Hint:
+See Chapter 9 and 2.4.
+:Pool:
+noiseMeasure
+:NumberOptions:
+4
+:Option:
+Reduce the spectral density of the equivalent-input voltage noise of the amplifier
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Reduce the spectral density of the equivalent-input current noise of the amplifier
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Insert an inductance in parallel with the source
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Decrease the input impedance of the amplifier
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,2.4,
+:Tags:
+noise,
+:Categories:
+EE3C11-2022-5-1,all,noiseMeasure,EE3C11-Chap2,0,AE1noise1,noise,

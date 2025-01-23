@@ -1,0 +1,93 @@
+:ID:
+178
+:Type:
+MS
+:Title:
+
+:Points:
+15
+:Time:
+20
+:Difficulty:
+5
+:Image:
+biasTechniquesE.svg
+:QuestionText:
+The figure above shows a circuit of a biased transistor stage.
+Which of the keywords below (can be more than one) do you associate with biasing techniques that have been applied in this circuit.
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+biasingTechniques
+:NumberOptions:
+4
+:Option:
+compensation
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+model-based biasing
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+brute-force biasing
+:OptionPoints:
+20
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+negative feedback biasing
+:OptionPoints:
+40
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+electronic self inductance
+:OptionPoints:
+40
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+3,
+:Tags:
+biasing,
+:Categories:
+all,biasingTechniques,

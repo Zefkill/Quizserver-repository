@@ -1,0 +1,104 @@
+:ID:
+253
+:Type:
+MS
+:Title:
+
+:Points:
+10
+:Time:
+15
+:Difficulty:
+4
+:Image:
+HBmotorDriver.svg
+:QuestionText:
+The figure shows a half-bridge motor driver. Please select which of the statements below is true.
+:Feedback:
+See option feedback.
+:Hint:
+See Chapter 7.
+:Pool:
+HBmotorDriver
+:NumberOptions:
+4
+:Option:
+This circuit accurately relates the motor current to the DAC voltage.
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+None of these statements is true.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+The driving impedance for the motor is infinite.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The voltage induced by the motor does not affect the drive current.
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The voltage to current transfer equals: $\frac{I_m}{V_{DAC}}=\frac{R_a+R_b}{R_bR_s}$
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The voltage to current transfer equals: $\frac{I_m}{V_{DAC}}=\frac{R_a}{R_bR_s}$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+7,
+:Tags:
+feedback configuration,negative feedback,amplifier types,
+:Categories:
+all,EE3C11-Chap7,HBM,

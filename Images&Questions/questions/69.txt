@@ -1,0 +1,81 @@
+:ID:
+69
+:Type:
+MC
+:Title:
+
+:Points:
+33
+:Time:
+15
+:Difficulty:
+3
+:Image:
+vAmpNullorNoise.svg
+:QuestionText:
+The figure above shows a passive feedback voltage amplifier, which is placed between its source and its load. The source resistance is 1k$\Omega$. The controller is modeled as a nullor with two uncorrelated equivalent-input noise sources. The spectral density of the voltage noise source is 3nV/$\sqrt{Hz}$ and the spectral density of the current noise source is 0.5pA/$\sqrt{Hz}$. The values of the resistors are: $R_1=1k\Omega$ and $R_2=1k\Omega$. You may assume a temperature of 300K and $k=1.38\times 10^{-23}$J/K.
+How large is the spectral density of the total source-referred noise?
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+
+:NumberOptions:
+4
+:Option:
+8.73nV/$\sqrt{Hz}$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+6.57nV/$\sqrt{Hz}$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+5.87nV/$\sqrt{Hz}$
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+5.08nV/$\sqrt{Hz}$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,7,
+:Tags:
+noise,
+:Categories:
+all,EE3C11-2022-3,EE3C11-Chap7,

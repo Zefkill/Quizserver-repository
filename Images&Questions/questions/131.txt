@@ -1,0 +1,40 @@
+:ID:
+131
+:Type:
+TF
+:Title:
+
+:Points:
+6
+:Time:
+5
+:Difficulty:
+2
+:Image:
+biasedCSstage.svg
+:QuestionText:
+The figure above shows a biased transistor stage with a signal source ($V_s$ and $R_s$) and a load resistor with a resistance $R_{\ell}$. The values $I_{GS}$ and $V_{GS}$ of the input bias sources have been assigned such that the zero-signal drain-source current $I_{DS}$ equals 100$\mu$A and the zero-signal drain-source voltage $V_{DS}$ equals 0.9V.
+Please indicate if the following statement is true or false.
+The quiescent power delivered by the input bias current source (value = $I_{GS}$) is zero because its value is very low.
+:Feedback:
+A network element delivers power if $\frac{1}{T}\int_{-T/2}^{T/2}v(t)i(t)dt<0$, where $v(t)$ is the element's branch voltage, $i(t)$ its branch current and $T$ the time interval of interest.
+:Hint:
+Study Chapter 3 and Chapter 18.
+:Pool:
+bias4sources
+:TRUE:
+false
+:TrueFeedback:
+This is not correct.
+:FALSE:
+true
+:FalseFeedback:
+This is correct!
+:Courses:
+EE4109,IC,
+:Chapters:
+18,3,
+:Tags:
+biasing,
+:Categories:
+all,bias4sources,

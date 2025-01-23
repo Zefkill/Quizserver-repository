@@ -1,0 +1,34 @@
+:ID:
+158
+:Type:
+WR
+:Title:
+
+:Points:
+44
+:Time:
+15
+:Difficulty:
+4
+:Image:
+
+:QuestionText:
+Describe the way in which the frequency response of a negative feedback amplifier can be designed independently of its noise performance, its drive capability and its bandwidth.
+:Feedback:
+
+:Hint:
+
+:Pool:
+
+:InitialText:
+Orthogonal design the frequency response and the noise performance:
+:AnswerKey:
+
+:Courses:
+IC,EE4109,AE1,EE3C11,
+:Chapters:
+14,
+:Tags:
+design methodology,
+:Categories:
+all,WR,

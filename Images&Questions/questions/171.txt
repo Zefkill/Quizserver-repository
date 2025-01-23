@@ -1,0 +1,40 @@
+:ID:
+171
+:Type:
+TF
+:Title:
+
+:Points:
+6
+:Time:
+5
+:Difficulty:
+2
+:Image:
+biasedCSstageModIn.svg
+:QuestionText:
+The figure above shows a biased transistor stage with a signal source ($V_s$ and $R_s$) and a load resistor with a resistance $R_{\ell}$. The values $I_{GS}$ and $V_{GS}$ of the input bias sources have been assigned such that the zero-signal drain-source current $I_{DS}$ equals 100$\mu$A and the zero-signal drain-source voltage $V_{DS}$ equals 0.9V.
+Please indicate if the following statement is true or false.
+The maximum negative value of the load voltage is -0.9V.
+:Feedback:
+See option feedback.
+:Hint:
+Study Chapter 3.
+:Pool:
+bias4sources
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+EE4109,IC,
+:Chapters:
+3,
+:Tags:
+biasing,
+:Categories:
+all,bias4sources,

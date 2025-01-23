@@ -1,0 +1,164 @@
+:ID:
+38
+:Type:
+MS
+:Title:
+Amp statements
+:Points:
+5
+:Time:
+5
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Select the correct statements from the list below.
+:Feedback:
+See feedback with the options.
+:Hint:
+Study Chapter 2 and 3.
+:Pool:
+amp-active-bias
+:NumberOptions:
+4
+:Option:
+A transistor is an active device.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not true
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+A biased transistor can be used as amplifier if its voltage gain (1/A) exceeds unity.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not true
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+A biased transistor can be used as amplifier if its current gain (1/D) exceeds unity.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not true
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+A biased transistor can be used as amplifier if the product of its voltage gain (1/A) and its current gain (1/D) exceeds unity.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not true
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+A biased transistor can be used as amplifier if the product of its voltage gain (1/A) and its current gain (1/D), multiplied with four, exceeds unity.
+:OptionPoints:
+100
+:OptionFeedback:
+This is true
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+A circuit has amplifying capabilities if its available power gain exceeds unity.
+:OptionPoints:
+100
+:OptionFeedback:
+This is true
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The available power gain of an amplifier depends on its source impedance.
+:OptionPoints:
+100
+:OptionFeedback:
+This is true
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The available power gain of an amplifier depends on its load impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not true
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+None of the other statements is true
+:OptionPoints:
+0
+:OptionFeedback:
+This is not true
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+A two-terminal network element delivers power to its connected circuit if the product of its branch voltage and its branch current is negative.
+:OptionPoints:
+100
+:OptionFeedback:
+This is true
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+A two-terminal network element dissipates power if the product of its branch voltage and its branch current is positive.
+:OptionPoints:
+100
+:OptionFeedback:
+This is true
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+3,2,
+:Tags:
+biasing,amplification,
+:Categories:
+all,amp-active-bias,

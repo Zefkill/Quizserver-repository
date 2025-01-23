@@ -1,0 +1,80 @@
+:ID:
+183
+:Type:
+MC
+:Title:
+
+:Points:
+8
+:Time:
+8
+:Difficulty:
+3
+:Image:
+
+:QuestionText:
+The noise figure of a practical amplifier driven from a noise-free source is:
+:Feedback:
+Any practical amplifier adds noise to the signal. If the source is noise-free, than the deterioration of the signal-to-noise ratio is infinite and: $F=\infty$.
+:Hint:
+See Chapter 9 and 2.4.
+:Pool:
+noiseCalcQ
+:NumberOptions:
+4
+:Option:
+0 ($-\infty$dB)
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+1 (0dB)
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\infty$ ($\infty$dB)
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+undefined
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,2.4,
+:Tags:
+noise,
+:Categories:
+all,AE1noise2,EE3C11-Chap2,EE3C11-2022-3,noise,

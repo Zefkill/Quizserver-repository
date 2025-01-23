@@ -1,0 +1,164 @@
+:ID:
+400
+:Type:
+MC
+:Title:
+
+:Points:
+12
+:Time:
+12
+:Difficulty:
+4
+:Image:
+
+:QuestionText:
+A capacitive signal source with a source impedance of approximately $C_s$ [F] produces a current which is accurately related to the information. This information should be made available to a capacitive load of approximately $C_{\ell}$ [F]. A source current of $I_s$ [A] should evoke a voltage $V_{\ell}$ [V] across the load. The source-load transfer should have an MFM response with a bandwidth of $B$ [Hz].
+A negative feedback transimpedance amplifier will be designed to perform the source-load transfer.
+An operational amplifier will be used as a controller. 
+The output impedance of the operational amplifier is very low and its influence on the dynamic performance can be neglected.
+Select the show-stopper value (the smallest possible value) of the Gain-Bandwidth product of the operational amplifier.
+:Feedback:
+See option feedback.
+:Hint:
+Study Chapter 11.
+:Pool:
+TrimpGB
+:NumberOptions:
+4
+:Option:
+B^2*2*pi*V_ell*C_s/I_s
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+B
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+I_s/(2*pi*V_ell*C_s)
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+I_s/(2*pi*V_ell*C_ell)
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:newParameter:
+C_s
+:paramMin:
+10e-12
+:paramMax:
+100e-12
+:paramValue:
+
+:paramUnits:
+F
+:paramDescription:
+Source capacitance
+:paramVisible:
+1
+:paramNoValues:
+10
+:newParameter:
+C_ell
+:paramMin:
+
+:paramMax:
+
+:paramValue:
+10e-12
+:paramUnits:
+
+:paramDescription:
+Load capacitance
+:paramVisible:
+1
+:paramNoValues:
+
+:newParameter:
+I_s
+:paramMin:
+2e-6
+:paramMax:
+10e-6
+:paramValue:
+
+:paramUnits:
+A
+:paramDescription:
+Peak source current
+:paramVisible:
+1
+:paramNoValues:
+5
+:newParameter:
+V_ell
+:paramMin:
+2
+:paramMax:
+5
+:paramValue:
+
+:paramUnits:
+V
+:paramDescription:
+Peak load voltage
+:paramVisible:
+1
+:paramNoValues:
+2
+:newParameter:
+B
+:paramMin:
+10e3
+:paramMax:
+1e5
+:paramValue:
+
+:paramUnits:
+Hz
+:paramDescription:
+Required -3dB bandwidth of the source-load transfer.
+:paramVisible:
+1
+:paramNoValues:
+10
+:Courses:
+AE1,EE3C11,
+:Chapters:
+11,
+:Tags:
+
+:Categories:
+all,EE3C11-Chap11,

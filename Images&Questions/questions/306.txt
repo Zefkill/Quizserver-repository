@@ -1,0 +1,82 @@
+:ID:
+306
+:Type:
+MC
+:Title:
+
+:Points:
+15
+:Time:
+15
+:Difficulty:
+5
+:Image:
+antennaAmpDiffStage.svg
+:QuestionText:
+The figure above shows an implementation of a CMOS active antenna. The signal source is a capacitive voltage source $\left( V_A \, C_A \right)$, where $C_A=5$pF. The load resistance $R_{\ell}$ and the output resistance $R_o$ are both $50\Omega$. 
+A study of the dynamic behavior shows that the transfer has two dominant poles, and frequency compensation is required. The suggestion is to use phantom zero compensation by inserting a resistor between the signal source and the input of the amplifier.
+Please indicate what you can expect of this compensation.
+:Feedback:
+See option feedback
+:Hint:
+Study Chapter 14
+:Pool:
+ActiveAntennaController
+:NumberOptions:
+4
+:Option:
+This phantom zero compensation is very effective.
+:OptionPoints:
+0
+:OptionFeedback:
+This not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+After compensation another pole is introduced which limits the effectiveness of this phantom zero.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This phantom zero is not effective because it is not implemented in the feedback network.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Nothing can be said about the effectiveness of this phantom zero.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+14,12,
+:Tags:
+poles and zeros,frequency compensation,
+:Categories:
+activeAntennaController,examEE4109AAnoWR,all,examEE4109AntennaAmp,frequencyCompensation,

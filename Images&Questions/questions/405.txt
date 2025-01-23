@@ -1,0 +1,39 @@
+:ID:
+405
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+Select if the following statement is True or False.
+Flicker noise in a resistor is a result of variations in the conduction mechanism.
+:Feedback:
+
+:Hint:
+
+:Pool:
+EE3C11exam-1-noise
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,
+:Tags:
+
+:Categories:
+EE3C11-2022-1-3,all,EE3C11-level-1,EE3C11-2022,

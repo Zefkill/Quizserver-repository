@@ -1,0 +1,80 @@
+:ID:
+95
+:Type:
+MC
+:Title:
+
+:Points:
+12
+:Time:
+12
+:Difficulty:
+4
+:Image:
+
+:QuestionText:
+An ADSL driver needs to drive a telephone line from its characteristic impedance. The characteristic impedance of the telephone line is 100$\Omega$. The ADSL driver itself is driven from a voltage output DAC. This DAC has an output impedance of about 50$\Omega$ that depends on the digital input code. An open circuit DAC output voltage of 5V should evoke a 20V signal across the telephone line. Give the T1 matrix of the two-port model of this amplifier.
+:Feedback:
+The ADSL driver must have an infinite input impedance and an output impedance of 100 $\Omega$. This can be realized with $C=D=0$ and $\frac{B}{A}=100$. The voltage gain with the load connected should be 4. With disconnected load it should be 8 (output resistance = load resistance). From this it follows that $A=\frac{1}{8}$ and $B=12.5$.
+:Hint:
+See section 2.3.
+:Pool:
+ABCD-2
+:NumberOptions:
+4
+:Option:
+$\left(\begin{array}{cc} \frac{1}{4} & 25\\ 0 & 0 \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+The output impedance is correct, but the voltage gain is half its required value. Probably forgot the voltage attenuation (output resistance = load resistance).
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} \frac{1}{8} & 12.5\\ 0 & 0 \end{array} \right)$
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 0 & 0\\ \frac{1}{400} & \frac{1}{4} \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+Wrong parameters exactly opposite from desired. The output impedance is correct, and the typical value of the transfer is correct. However, the input impedance is zero. The transfer depends on the output resistance of the DAC.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 0 & 0\\ \frac{1}{200} & \frac{1}{2} \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+Wrong parameters exactly opposite from desired. The output impedance is correct, and the typical value of the transfer is half of its required value. Probably forgot the voltage attenuation (output resistance = load resistance). In addition, the input impedance is zero. The transfer thus depends on the output resistance of the DAC.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.3,
+:Tags:
+amplifier types,
+:Categories:
+EE3C11-2022-4-3,all,EE3C11-Chap2,0,ABCD-2,

@@ -1,0 +1,80 @@
+:ID:
+20
+:Type:
+MC
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The ideal transadmittance amplifier has:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+ampTypes-2
+:NumberOptions:
+4
+:Option:
+infinite input impedance and zero output impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+zero input impedance and an infinite output impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+infinite input impedance and an infinite output impedance.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+zero input impedance and zero output impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.2,
+:Tags:
+amplification,
+:Categories:
+all,EE3C11-2022-2,EE3C11-2022-2-2,EE3C11-Chap2,

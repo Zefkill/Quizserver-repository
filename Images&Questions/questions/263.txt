@@ -1,0 +1,140 @@
+:ID:
+263
+:Type:
+MS
+:Title:
+
+:Points:
+5
+:Time:
+5
+:Difficulty:
+2
+:Image:
+biasedCSstageIsRsRL.svg
+:QuestionText:
+The figure above shows the small-signal equivalent diagram of a biased CS stage, driven from a resistive current source and loaded with a resistor. Please select the correct statements below.
+:Feedback:
+See option feedback
+:Hint:
+Study Chapter 5.
+:Pool:
+biasedCSssDynamic
+:NumberOptions:
+4
+:Option:
+None of the other options.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+The poles of the input impedance equal those of the transimpedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The poles of the output impedance equal those of the transimpedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+If the transistor is biased in its linear operating region, the transimpedance has a zero at $s=-2\pi f_T$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+If the transistor is biased in its linear operating region, the transimpedance has a zero at $s=2\pi f_T$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+If the transistor is biased in its linear operating region, the transimpedance has a zero at $s=-4\pi f_T$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+If the transistor is biased in its linear operating region, the transimpedance has a zero at $s=4\pi f_T$
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+If the transistor is biased in its saturation region, the absolute value of the frequency of the zero in the transimpedance equals $f_T$.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+If the transistor is biased in its saturation region, the absolute value of the frequency of the zero in the transimpedance exceeds $f_T$.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+5,
+:Tags:
+MOS operation,
+:Categories:
+all,biasedCSssDynamic,

@@ -1,0 +1,130 @@
+:ID:
+391
+:Type:
+MC
+:Title:
+
+:Points:
+12
+:Time:
+12
+:Difficulty:
+4
+:Image:
+opAmpDriveCapability-VVR.svg
+:QuestionText:
+The figure above shows the circuit diagram of a passive feedback voltage amplifier driving a resistive load and driven from a resistive source. 
+The peak-peak value of the source voltage equals 1V.
+Select the correct value of the peak-peak load current.
+:Feedback:
+See option feedback
+:Hint:
+Study Chapter 8.
+:Pool:
+opAmpDriveCap
+:NumberOptions:
+4
+:Option:
+(1+R_a/R_b)/R_ell
+:OptionPoints:
+0
+:OptionFeedback:
+Did you account for the current in the feedback resistors?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+(R_ell+R_a+R_b)/(R_ell*R_b)
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+1/R_ell
+:OptionPoints:
+0
+:OptionFeedback:
+Did you account for the voltage gain and the current through the feedback resistors?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+(R_a+R_b)/(R_ell*R_a*R_b)
+:OptionPoints:
+0
+:OptionFeedback:
+Did you account for the voltage gain?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:newParameter:
+R_a
+:paramMin:
+
+:paramMax:
+
+:paramValue:
+3*R_b
+:paramUnits:
+\Omega
+:paramDescription:
+Resistance of feedback resistor
+:paramVisible:
+1
+:paramNoValues:
+
+:newParameter:
+R_b
+:paramMin:
+50
+:paramMax:
+500
+:paramValue:
+
+:paramUnits:
+\Omega
+:paramDescription:
+Resistance of feedback resistor
+:paramVisible:
+1
+:paramNoValues:
+10
+:newParameter:
+R_ell
+:paramMin:
+
+:paramMax:
+
+:paramValue:
+2.5*R_b
+:paramUnits:
+\Omega
+:paramDescription:
+Load resistance
+:paramVisible:
+1
+:paramNoValues:
+
+:Courses:
+AE1,EE3C11,
+:Chapters:
+8,
+:Tags:
+biasing,
+:Categories:
+EE3C11-2022-4-1,all,0,OpAmps,

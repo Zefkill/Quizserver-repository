@@ -1,0 +1,39 @@
+:ID:
+409
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+Select if the following statement is True or False.
+The number of zeros of a transfer of an electrical network is equal to the number of capacitors plus the number of inductors.
+:Feedback:
+
+:Hint:
+
+:Pool:
+EE3C11-poles-1
+:TRUE:
+false
+:TrueFeedback:
+This is not correct
+:FALSE:
+true
+:FalseFeedback:
+This is correct!
+:Courses:
+AE1,EE3C11,
+:Chapters:
+18,
+:Tags:
+poles and zeros,
+:Categories:
+EE3C11-2022-1-3,all,EE3C11-level-1,EE3C11-2022,

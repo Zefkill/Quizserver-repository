@@ -1,0 +1,39 @@
+:ID:
+202
+:Type:
+TF
+:Title:
+202-1
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Please indicate if the following statement is true or false.
+If zero frequency is not of interest, a signal source may be AC coupled to an amplifier.
+:Feedback:
+It may be done but is doesn't have to be done.
+:Hint:
+Study Chapter 9.
+:Pool:
+biasing_AC_DC_Feedback
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+9,
+:Tags:
+biasing,
+:Categories:
+all,biasing_AC_DC_feedback,EE3C11-2022-2-5,EE3C11-2022-2,EE3C11-Chap9,

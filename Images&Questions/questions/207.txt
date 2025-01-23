@@ -1,0 +1,80 @@
+:ID:
+207
+:Type:
+MC
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The input voltage of an actuator accurately represents the information at its output. An amplifier is used to pass the information from a DA converter to the actuator. If the input impedance of the actuator is inaccurately known and/or signal dependent, then:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+ampTypes-2
+:NumberOptions:
+4
+:Option:
+the ideal value of the output impedance of this amplifier has to be infinite.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+the ideal value of the output impedance of this amplifier has to be zero.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+the output impedance of this amplifier can have any value.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+the output v-i characteristic of the amplifier should be linear.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.2,
+:Tags:
+amplification,
+:Categories:
+all,EE3C11-2022-2,EE3C11-2022-2-2,EE3C11-Chap2,

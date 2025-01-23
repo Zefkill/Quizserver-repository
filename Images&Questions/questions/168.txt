@@ -1,0 +1,81 @@
+:ID:
+168
+:Type:
+MS
+:Title:
+
+:Points:
+55
+:Time:
+20
+:Difficulty:
+5
+:Image:
+
+:QuestionText:
+Consider a CS stage which is driven from an ideal voltage source. The spectral density of the source-referred noise for this configuration equals $S_v=\frac{4kTn\Gamma}{g_m} \left( 1+ \frac{f_{\ell}}{f}\right)\left[\frac{V^2}{Hz} \right]$, where $n$ is the substrate factor, and $\Gamma$ equals 1/2 in weak inversion and 2/3 in strong inversion. The corner frequency of the 1/f noise depends on the cut-off frequency $f_T$ of the transistor: $f_{\ell}=\alpha f_T$ with $\alpha \ll 1$,.
+Select the correct statements:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+
+:NumberOptions:
+4
+:Option:
+The noise density at frequencies above $f_{\ell}$ can be designed independently from the noise density at frequencies below $f_{\ell}$.
+:OptionPoints:
+50
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+The noise density at frequencies above $f_{\ell}$ cannot be designed independently from the noise density at frequencies below $f_{\ell}$.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+The noise density at frequencies below $f_{\ell}$ can be reduced by increasing both the channel length and the channel with, while maintaining their ratio.
+:OptionPoints:
+50
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+A low noise density at frequencies above $f_{\ell}$ yields a high corner frequency $f_{\ell}$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+4,19,5,
+:Tags:
+noise,
+:Categories:
+all,

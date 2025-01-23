@@ -1,0 +1,69 @@
+:ID:
+130
+:Type:
+MC
+:Title:
+
+:Points:
+10
+:Time:
+10
+:Difficulty:
+3
+:Image:
+
+:QuestionText:
+An NMOS transistor is biased in its forward saturation region with a drain current $I_{DS}$. The transistor has a width $W$ and a length $L$. Under the given conditions the small-signal transconductance and the cut-off frequency of this transistor equal $g_m$ and $f_T$, respectively.
+Select in which way the cut-off frequency changes if the width and the drain current are changed to $2W$ and $2I_{DS}$, respectively.
+:Feedback:
+The cut-off frequency mainly depends on gm and the oxide capacitance. Consider the way in which these change under the described conditions.
+:Hint:
+Study Chapter 4.
+:Pool:
+MOS_I_W_L_scaling
+:NumberOptions:
+4
+:Option:
+The cut-off frequency remains the same
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The cut-off frequency increases with a factor two.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The cut-off frequency decreases with a factor two.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+4,
+:Tags:
+MOS operation,
+:Categories:
+all,MOS-W_I_L_scaling,

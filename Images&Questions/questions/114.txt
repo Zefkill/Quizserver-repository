@@ -1,0 +1,36 @@
+:ID:
+114
+:Type:
+WR
+:Title:
+
+:Points:
+15
+:Time:
+20
+:Difficulty:
+5
+:Image:
+biasingConcepts-B.svg
+:QuestionText:
+The figure shows the circuit of a CS stage voltage amplifier. The signal source is $V_s$ with impedance $Z_s$. The load voltage $V_{\ell}$ is the voltage across $Z_{\ell}$. The frequency range of interest does not include frequencies in the vicinity of zero.
+The main design goals for the circuit are a low power consumption and a high signal-to noise ratio over the frequency range of interest. The capacitances $C_i$ and $C_o$ and the inductance $L_o$ are relatively large: their influence on the source-to-load transfer over the frequency range of interest can be ignored.
+Please give design considerations for the channel width and length of M2, and the value of $I_{\mathrm{bias}}$, $R_B$ and $C_B$.
+:Feedback:
+
+:Hint:
+
+:Pool:
+biasingTechniques
+:InitialText:
+Design considerations for M2, I_bias, R_B and C_B:
+:AnswerKey:
+
+:Courses:
+EE4109,IC,
+:Chapters:
+15,
+:Tags:
+biasing,
+:Categories:
+all,biasingTechniques,WR,

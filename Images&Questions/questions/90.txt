@@ -1,0 +1,39 @@
+:ID:
+90
+:Type:
+TF
+:Title:
+90-1
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Please indicate if the following statement is true or false.
+AC coupling can only be applied if signal frequencies of interest do not include zero frequency.
+:Feedback:
+AC coupling removes DC information. Hence it can only be applied if DC is not of interest.
+:Hint:
+Study Chapter 9.
+:Pool:
+biasing_AC_DC_Feedback
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+9,
+:Tags:
+biasing,
+:Categories:
+all,biasing_AC_DC_feedback,EE3C11-2022-2-5,EE3C11-2022-2,EE3C11-Chap9,

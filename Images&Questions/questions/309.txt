@@ -1,0 +1,82 @@
+:ID:
+309
+:Type:
+MS
+:Title:
+
+:Points:
+20
+:Time:
+20
+:Difficulty:
+6
+:Image:
+antennaAmpDiffStageRphzLphz.svg
+:QuestionText:
+The figure above shows a circuit of an active antenna with a dual-stage controller. The bandwidth of the voltage transfer is about 1GHz, and the input stage is optimized for noise ($c_{iss}=1.5C_A$), where the antenna capacitance $C_A=5$pF. The operating current and the inversion coefficient of the input stage are designed such that the noise floor of the source-referred noise is $4\cdot 10^{-18} \left[ \frac{V^2}{Hz} \right]$, and the corner frequency of the 1/f noise far below the required frequency of 10kHz. The input stage transistor operates in moderate inversion.
+In order to reduce the influence of high-frequency interference, an inductor with a value $L_{phz}$, and a resistor with value $R_{phz}$ are inserted in series with the input of the amplifier. Their values are selected such that a second-order bandwidth limitation with an MFM characteristic is obtained at 30MHz.
+Select the design measures you can take to reduce the effect that this bandwidth limitation has on the noise performance of the active antenna.
+:Feedback:
+See option feedback
+:Hint:
+
+:Pool:
+ActiveAntennaControllerBwLimit
+:NumberOptions:
+4
+:Option:
+No design measures can be taken to reduce the noise after insertion of these components.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+Increase the operating current of the input stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Decrease the operating current of the input stage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Reduce $c_{iss}$ AND increase the current of the input stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+14,19,12,
+:Tags:
+noise,frequency compensation,
+:Categories:
+all,activeAntennaControllerBwLimit,examEE4109AAnoWR,examEE4109AntennaAmp,

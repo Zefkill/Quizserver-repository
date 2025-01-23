@@ -1,0 +1,172 @@
+:ID:
+255
+:Type:
+MC
+:Title:
+
+:Points:
+15
+:Time:
+15
+:Difficulty:
+5
+:Image:
+
+:QuestionText:
+Consider a negative feedback amplifier of which the loop gain has a DC value $L_{DC}$ and two poles: $p_1$ and $p_2$. Please select the correct conclusion about the small-signal dynamic behavior of this amplifier.
+:Feedback:
+In this case, both poles of the loop gain are dominant. The achievable bandwidth is the square root of the loop gain-poles product. The sum $\left| p_1 + p_2 \right|$ equals $\sqrt{2}$ times the bandwidth. Hence, frequency compensation for MFM is not required.
+:Hint:
+Study Chapter 11 and Chapter 12.
+:Pool:
+fcoAsk
+:NumberOptions:
+4
+:Option:
+The response of the amplifier approximates a first-order low-pass response.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This amplifier has a second-order MFM low-pass response with a bandwidth of $$B_w$$ Hz.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This amplifier can be given a second-order MFM low-pass response by adding a phantom zero at $$p_1$$ Hz.
+:OptionPoints:
+0
+:OptionFeedback:
+Did you perform pole-zero canceling with $p_1$?
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This amplifier can be given a second-order MFM low-pass response by adding a phantom zero at $$p_2$$ Hz.
+:OptionPoints:
+0
+:OptionFeedback:
+Did you perform pole-zero canceling with $p_2$?
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+None of the above statements is true
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:newParameter:
+A
+:paramMin:
+
+:paramMax:
+
+:paramValue:
+0.5*sqrt(2)*(sqrt(L_DC^2 -1)+1-L_DC)
+:paramUnits:
+
+:paramDescription:
+Scale factor
+:paramVisible:
+0
+:paramNoValues:
+
+:newParameter:
+B_w
+:paramMin:
+
+:paramMax:
+
+:paramValue:
+-p_1*(1-L_DC)/A
+:paramUnits:
+Hz
+:paramDescription:
+Bandwidth of the amplifier
+:paramVisible:
+0
+:paramNoValues:
+
+:newParameter:
+p_2
+:paramMin:
+
+:paramMax:
+
+:paramValue:
+-sqrt(2)*B_w-p_1
+:paramUnits:
+Hz
+:paramDescription:
+Second pole frequency
+:paramVisible:
+1
+:paramNoValues:
+
+:newParameter:
+p_1
+:paramMin:
+-100
+:paramMax:
+-1000
+:paramValue:
+
+:paramUnits:
+Hz
+:paramDescription:
+First pole frequency
+:paramVisible:
+1
+:paramNoValues:
+11
+:newParameter:
+L_DC
+:paramMin:
+-10
+:paramMax:
+-100
+:paramValue:
+
+:paramUnits:
+
+:paramDescription:
+DC loop gain
+:paramVisible:
+1
+:paramNoValues:
+10
+:Courses:
+EE3C11,AE1,
+:Chapters:
+12,
+:Tags:
+frequency compensation,
+:Categories:
+all,fcoAsk,frequencyCompensation,EE3C11-Chap12,

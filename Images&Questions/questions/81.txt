@@ -1,0 +1,38 @@
+:ID:
+81
+:Type:
+TF
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+A model of a noisy two-port, that is valid for all termination impedances of the two-port, requires at least a noise-free two-port and one noise source.
+:Feedback:
+
+:Hint:
+
+:Pool:
+noise-2
+:TRUE:
+false
+:TrueFeedback:
+This is not correct.
+:FALSE:
+true
+:FalseFeedback:
+This is correct!
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,2.4,
+:Tags:
+noise,
+:Categories:
+EE3C11-2022-2-3,all,EE3C11-Chap2,EE3C11-2022-2,

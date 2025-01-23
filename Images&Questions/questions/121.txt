@@ -1,0 +1,82 @@
+:ID:
+121
+:Type:
+MC
+:Title:
+121-1
+:Points:
+15
+:Time:
+15
+:Difficulty:
+5
+:Image:
+transimpedanceOpamp.svg
+:QuestionText:
+The figure above on the left shows the circuit of a negative feedback transimpedance amplifier with an operational amplifier. The amplifier is driven from a capacitive current source with a source capacitance of 3pF and loaded with a 1k$\Omega$ resistor. The ideal gain of the circuit equals -100k$\Omega$.
+The figure on the right shows the equivalent small-signal model of the operational amplifier. It has a DC gain $A_0$ of $500\times 10^{3}$, an input capacitance $C_i$ of 3pF, one pole, a GB product $\mathrm{GB}$ of 10MHz and an output resistance $R_o$ of 1k$\Omega$.
+Which of the following statements is true? (select only one)
+:Feedback:
+In this case, the loop gain has two dominant poles. However, absolute value of the sum of the poles is smaller than $\sqrt{2}$ times the achievable bandwidth. Hence, frequency compensation is required to obtain an MFM response. This can be done with the aid of a phantom zero.
+:Hint:
+Study Chapter 11 and 12.
+:Pool:
+fCompOpAmp
+:NumberOptions:
+4
+:Option:
+The source-to-load transfer has a first-order low-pass character.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The source-to-load transfer has a second-order MFM low-pass character.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The source-to-load transfer can be given a second-order MFM low-pass character with one passive phantom-zero.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The source-to-load transfer cannot be given a second-order MFM low-pass character with one passive phantom-zero.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+11,12,
+:Tags:
+frequency compensation,
+:Categories:
+all,EE3C11-Chap12,fcCompOpAmp,EE3C11-Chap11,fco,frequencyCompensation,

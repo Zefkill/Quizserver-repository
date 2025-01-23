@@ -1,0 +1,38 @@
+:ID:
+194
+:Type:
+TF
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Negative feedback can be used to increase the voltage-drive capability of an amplifier.
+:Feedback:
+
+:Hint:
+
+:Pool:
+FBcapabilities
+:TRUE:
+false
+:TrueFeedback:
+This is not correct.
+:FALSE:
+true
+:FalseFeedback:
+This is correct!
+:Courses:
+AE1,EE3C11,
+:Chapters:
+7.1,
+:Tags:
+negative feedback,
+:Categories:
+all,EE3C11-2022-2,EE3C11-2022-2-1,EE3C11-Chap7,

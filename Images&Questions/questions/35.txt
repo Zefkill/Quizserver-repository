@@ -1,0 +1,80 @@
+:ID:
+35
+:Type:
+MC
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+In a negative feedback amplifier, the T1 matrix parameter D needs to be fixed to an accurate and nonzero value. The remaining three T1 matrix parameters need to be zero. Give the type of feedback that needs to be implemented.
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+ampTypes-2
+:NumberOptions:
+4
+:Option:
+Load voltage sensing and source current comparison
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Load voltage sensing and source voltage comparison
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Load current sensing and source current comparison
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Load current sensing and source voltage comparison
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+7.2,
+:Tags:
+negative feedback,
+:Categories:
+all,EE3C11-2022-2,EE3C11-2022-2-2,EE3C11-Chap7,

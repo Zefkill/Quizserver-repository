@@ -1,0 +1,38 @@
+:ID:
+357
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The common-mode to differential-mode conversion of a natural two-port equals zero.
+:Feedback:
+See True/False feedback.
+:Hint:
+
+:Pool:
+NatTwoPorts
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+18,
+:Tags:
+
+:Categories:
+all,EE3C11-2022-2,Two-ports,

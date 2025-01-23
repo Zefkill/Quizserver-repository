@@ -1,0 +1,129 @@
+:ID:
+311
+:Type:
+MC
+:Title:
+
+:Points:
+15
+:Time:
+15
+:Difficulty:
+3
+:Image:
+AAbias.svg
+:QuestionText:
+Consider the figure above. The upper figure shows the signal path of the active antenna. The antenna capacitance equals $C_A$, and feedback capacitance equals $C_f$. The gain $\frac{V_{\ell}}{V_A}$ equals -1.
+The -3dB frequency range of the amplifier is $f_{low}\cdots f_{high}$. The antenna capacitance equals $C_A$. Select the correct value of $R_B$ from the options below.
+:Feedback:
+See option feedback
+:Hint:
+This value is determined by $f_{low}$ and $C_f$.
+:Pool:
+AAbiasFL
+:NumberOptions:
+4
+:Option:
+1/(2*pi*f_low*C_A/2)
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct.
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+1/(2*pi*f_low*C_A)
+:OptionPoints:
+0
+:OptionFeedback:
+Did you use $f_{low}$ and $C_A$?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+1/(2*pi*f_high*C_A/2)
+:OptionPoints:
+0
+:OptionFeedback:
+Did you use $f_{high}$ and $C_f$?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+1/(2*pi*f_high*C_A)
+:OptionPoints:
+0
+:OptionFeedback:
+Did you use $f_{high}$ and $C_A$?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:newParameter:
+C_A
+:paramMin:
+4e-12
+:paramMax:
+10e-12
+:paramValue:
+
+:paramUnits:
+F
+:paramDescription:
+Antenna capacitance
+:paramVisible:
+1
+:paramNoValues:
+4
+:newParameter:
+f_low
+:paramMin:
+20e3
+:paramMax:
+100e3
+:paramValue:
+
+:paramUnits:
+Hz
+:paramDescription:
+High-pass -3dB frequency.
+:paramVisible:
+1
+:paramNoValues:
+5
+:newParameter:
+f_high
+:paramMin:
+10e6
+:paramMax:
+50e6
+:paramValue:
+
+:paramUnits:
+Hz
+:paramDescription:
+Low-pass -3dB frequency.
+:paramVisible:
+1
+:paramNoValues:
+5
+:Courses:
+EE4109,IC,
+:Chapters:
+9,15,7,
+:Tags:
+biasing,amplifier bandwidth,
+:Categories:
+all,AAbiasFL,examEE4109AAnoWR,examEE4109AntennaAmp,

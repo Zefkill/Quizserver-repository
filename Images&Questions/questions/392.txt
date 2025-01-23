@@ -1,0 +1,130 @@
+:ID:
+392
+:Type:
+MC
+:Title:
+
+:Points:
+12
+:Time:
+12
+:Difficulty:
+4
+:Image:
+opAmpDriveCapability-VVC.svg
+:QuestionText:
+The figure above shows the circuit diagram of a passive feedback voltage amplifier driving a capacitive load and driven from a resistive source. 
+The peak-peak value of the source voltage equals 1V and the maximum rate of change of the input voltage is $\pm 1$ $V\mu$s.
+Select the correct value of the peak-peak load current.
+:Feedback:
+See option feedback
+:Hint:
+Study Chapter 8.
+:Pool:
+opAmpDriveCap
+:NumberOptions:
+4
+:Option:
+(1+R_a/R_b)*2*10^6*C_ell
+:OptionPoints:
+0
+:OptionFeedback:
+Did you account for the current in the feedback resistors?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+1/R_b+(1+R_a/R_b)*2*10^6*C_ell
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+(1+R_a/R_b)/(R_a+R_b)
+:OptionPoints:
+0
+:OptionFeedback:
+Did you account for the current through the load capacitor?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+2*10^6*C_ell
+:OptionPoints:
+0
+:OptionFeedback:
+Did you account for the voltage gain and the current through the feedback resistors?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:newParameter:
+R_a
+:paramMin:
+
+:paramMax:
+
+:paramValue:
+2.5*R_b
+:paramUnits:
+\Omega
+:paramDescription:
+Resistance of feedback resistor
+:paramVisible:
+1
+:paramNoValues:
+
+:newParameter:
+R_b
+:paramMin:
+200
+:paramMax:
+2000
+:paramValue:
+
+:paramUnits:
+\Omega
+:paramDescription:
+Resistance of feedback resistor
+:paramVisible:
+1
+:paramNoValues:
+10
+:newParameter:
+C_ell
+:paramMin:
+
+:paramMax:
+
+:paramValue:
+1/(4*10^6*R_b)
+:paramUnits:
+F
+:paramDescription:
+Load capacitance
+:paramVisible:
+1
+:paramNoValues:
+
+:Courses:
+AE1,EE3C11,
+:Chapters:
+8,
+:Tags:
+
+:Categories:
+EE3C11-2022-4-1,all,0,OpAmps,

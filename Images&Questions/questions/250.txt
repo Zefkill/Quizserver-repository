@@ -1,0 +1,92 @@
+:ID:
+250
+:Type:
+MS
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Please indicate below which performance aspects can be improved through application of negative feedback.
+:Feedback:
+The weak inaccuracy and the weak nonlinearity of a feedback amplifier can be reduced and the small-signal bandwidth can be increased, both by increasing the loop gain in a negative feedback amplifier.
+:Hint:
+See Chapter 2.
+:Pool:
+FBcapabilities
+:NumberOptions:
+4
+:Option:
+The signal-to-noise ratio can be improved.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The weak nonlinearity can be reduced.
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The small-signal bandwidth can be increased.
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The static and dynamic drive capability can be increased.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+None of these aspects can be improved.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2,
+:Tags:
+negative feedback,
+:Categories:
+all,EE3C11-Chap2,EE3C11-2022-2-1,EE3C11-2022-2,

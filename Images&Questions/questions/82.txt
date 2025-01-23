@@ -1,0 +1,81 @@
+:ID:
+82
+:Type:
+MC
+:Title:
+
+:Points:
+22
+:Time:
+5
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+In the step-by-step design approach for application specific amplifiers the evaluation of the feasibility of the requirements for the equivalent input noise sources of the amplifier in the required technology is done considering a CS type input stage.
+Select the reason why this is done.
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+
+:NumberOptions:
+4
+:Option:
+Compared with other single-transistor stages the CS stage has the lowest noise contribution of all stages.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Compared with other single-transistor stages a CS input stage ensures the lowest contribution of other stages to the input-referred noise sources.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Compared with other single-transistor stages a CS input stage has the highest input impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Compared with other single-transistor stages a CS input stage has the lowest input bias current.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+14,
+:Tags:
+design methodology,
+:Categories:
+all,

@@ -1,0 +1,38 @@
+:ID:
+359
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The Common-Mode Rejection Ratio is a measure for a differential-mode input signal to be applied to compensate for an output signal that is caused by a common-mode mode input signal.
+:Feedback:
+See True/False feedback.
+:Hint:
+
+:Pool:
+AMP_PortIso
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+18,
+:Tags:
+
+:Categories:
+all,EE3C11-2022-2,Two-ports,AMP_PortIso,

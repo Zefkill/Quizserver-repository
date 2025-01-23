@@ -1,0 +1,38 @@
+:ID:
+233
+:Type:
+TF
+:Title:
+233-1
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Ideal amplifiers can always be modeled with a current-controlled current source.
+:Feedback:
+The functional behavior of an ideal amplifier can be modeled with a linear two-port of which at least one of the transmission-1 parameters is nonzero.
+:Hint:
+See Chapter 2.
+:Pool:
+ampTypes-2
+:TRUE:
+false
+:TrueFeedback:
+This is not correct!
+:FALSE:
+true
+:FalseFeedback:
+Correct!
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.1,
+:Tags:
+amplification,
+:Categories:
+all,EE3C11-2022-2,EE3C11-2022-2-2,EE3C11-Chap2,

@@ -1,0 +1,81 @@
+:ID:
+5
+:Type:
+MC
+:Title:
+
+:Points:
+22
+:Time:
+5
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+In the step-by-step design approach for application specific amplifiers the evaluation of the feasibility of the requirements for the voltage and current drive capability of the amplifier in the required technology is done considering a CS type output stage.
+Select the reason why this is done.
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+
+:NumberOptions:
+4
+:Option:
+Compared with other single-transistor stages the CS stage has the largest voltage and current drive capabilities.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Compared with other single-transistor stages a CS output stage ensures lower drive requirements for preceding stages.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Compared with other single-transistor stages a CS stage has the highest power efficiency.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Compared with other single-transistor stages a CS stage requires the lowest input drive voltage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+14,
+:Tags:
+design methodology,
+:Categories:
+all,

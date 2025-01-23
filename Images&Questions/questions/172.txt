@@ -1,0 +1,38 @@
+:ID:
+172
+:Type:
+TF
+:Title:
+172-1
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The noise figure of a noise-free amplifier is unity ($0$dB).
+:Feedback:
+
+:Hint:
+
+:Pool:
+noiseFigureTF
+:TRUE:
+false
+:TrueFeedback:
+This is not correct: if the source is noise-free, the noise figure is undefined.
+:FALSE:
+true
+:FalseFeedback:
+This is correct!
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,2.4,
+:Tags:
+noise,
+:Categories:
+all,EE3C11-Chap2,EE3C11-2022-2,AE1noise1,noise,

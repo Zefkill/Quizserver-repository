@@ -1,0 +1,142 @@
+:ID:
+265
+:Type:
+MS
+:Title:
+
+:Points:
+5
+:Time:
+5
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+An N MOS transistor is biased in moderate inversion, in its forward saturation region. The device geometry is the smallest possible. The DC gate current is zero. The drain current and the drain-source voltage are positive. The CS stage is driven from a resistive source. 
+The spectrum of the source-referred noise has a 1/f character at low frequencies and a frequency-independent part for medium frequencies (floor noise). At high frequencies, it is proportional to the square of the frequency.
+Select the correct statements below.
+:Feedback:
+See option feedback.
+:Hint:
+Study Chapter 5.
+:Pool:
+noiseMOS
+:NumberOptions:
+4
+:Option:
+None of the other statements is true.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+The floor noise can be reduced by increasing the width and the drain current proportionally.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The high-frequency noise can be reduced by increasing the drain current.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The floor noise can be reduced by increasing the drain current.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The 1/f noise can be reduced by increasing the width and the length of the MOS proportionally.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The corner frequency of the 1/f noise and the corner frequency of the high-frequency noise can independently be changed by the device geometry.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+At the given source resistance, the corner frequency of the high frequency noise cannot be increased.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+At the given source resistance and drain current, the corner frequency of the high frequency noise cannot be increased.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+At the given device geometry, the corner frequency of the 1/f noise can be reduced, while the noise floor is maintained.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+5,
+:Tags:
+noise,
+:Categories:
+all,noiseMOS,noise,

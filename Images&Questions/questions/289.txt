@@ -1,0 +1,39 @@
+:ID:
+289
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+Please indicate if the following statement is correct:
+Output voltage comparison requires output series feedback.
+:Feedback:
+
+:Hint:
+
+:Pool:
+FBsenseCompare
+:TRUE:
+false
+:TrueFeedback:
+
+:FALSE:
+true
+:FalseFeedback:
+
+:Courses:
+AE1,EE3C11,
+:Chapters:
+7.2,
+:Tags:
+negative feedback,feedback configuration,
+:Categories:
+all,EE3C11-Chap7,EE3C11-level-1,

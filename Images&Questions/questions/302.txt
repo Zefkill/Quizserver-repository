@@ -1,0 +1,83 @@
+:ID:
+302
+:Type:
+MC
+:Title:
+
+:Points:
+15
+:Time:
+15
+:Difficulty:
+5
+:Image:
+twoAntennaAmps.svg
+:QuestionText:
+Figures A and B show two different implementations of a CMOS active antenna. The signal source is a capacitive voltage source $\left( V_A \, C_A \right)$, where $C_A=5$pF. The load resistance $R_{\ell}$ and the output resistance $R_o$ are both $50\Omega$. 
+The noise performance of both implementations is optimized. The input capacitance of the input stage $c_{iss}=1.5C_A$, for both implementations. The current mirror in the circuit from figure A does not significantly contribute to noise, and all input transistors work at the same inversion level.
+The output stages of both implementations are identical.
+Please select the correct answer from the list below.
+:Feedback:
+See option feedback
+:Hint:
+Study Chapter 14
+:Pool:
+ActiveAntennaController
+:NumberOptions:
+4
+:Option:
+The quiescent current of configuration from Figure A will exceed that of the configuration from Figure B.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The quiescent current of configuration from Figure B will exceed that of the configuration from Figure A.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Both circuits operate at the same quiescent current.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Under the given conditions, no conclusions can be drawn about the quiescent current of both implementations.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+14,19,
+:Tags:
+noise,
+:Categories:
+all,activeAntennaController,

@@ -1,0 +1,160 @@
+:ID:
+192
+:Type:
+MC
+:Title:
+192-1
+:Points:
+8
+:Time:
+8
+:Difficulty:
+3
+:Image:
+
+:QuestionText:
+The noise behavior of an amplifier is modeled with an equivalent-input noise voltage source and an equivalent-input noise current source. The spectral densities of these noise sources are given as $S_v$ and $S_i$, respectively. The input of the amplifier is connected to a signal voltage source with a source resistance $R_s$. How large is the noise figure in dB of this combination?
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+noiseCalcF
+:NumberOptions:
+4
+:Option:
+10*log(1 + (S_v + R_s^2*S_i)/(4*k*T*R_s))/log(10)
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+10*log((S_v + R_s^2*S_i)/(4*k*T*R_s))/log(10)
+:OptionPoints:
+0
+:OptionFeedback:
+Did you account for the noise of the source resistance?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+10*log(1 + S_v/(4*k*T*R_s))/log(10)
+:OptionPoints:
+0
+:OptionFeedback:
+Did you account for the contribution of $S_i$?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:Option:
+1 + (S_v + R_s^2*S_i)/(4*k*T*R_s)
+:OptionPoints:
+0
+:OptionFeedback:
+Did you evaluate the noise figure in dB?
+:OptionRequired:
+true
+:OptionExpression:
+true
+:OptionUnique:
+false
+:newParameter:
+R_s
+:paramMin:
+500
+:paramMax:
+5000
+:paramValue:
+
+:paramUnits:
+\Omega
+:paramDescription:
+Source resistance
+:paramVisible:
+1
+:paramNoValues:
+10
+:newParameter:
+S_v
+:paramMin:
+1e-16
+:paramMax:
+10e-16
+:paramValue:
+
+:paramUnits:
+V^2/Hz
+:paramDescription:
+Spectral density of the input-referred noise voltage of the amplifier.
+:paramVisible:
+1
+:paramNoValues:
+10
+:newParameter:
+S_i
+:paramMin:
+1e-24
+:paramMax:
+10e-24
+:paramValue:
+
+:paramUnits:
+A^2/Hz
+:paramDescription:
+Spectral density of the input-referred noise current of the amplifier.
+:paramVisible:
+1
+:paramNoValues:
+10
+:newParameter:
+k
+:paramMin:
+
+:paramMax:
+
+:paramValue:
+1.38e-23
+:paramUnits:
+J/K
+:paramDescription:
+Boltzmann's constant
+:paramVisible:
+1
+:paramNoValues:
+
+:newParameter:
+T
+:paramMin:
+
+:paramMax:
+
+:paramValue:
+300
+:paramUnits:
+K
+:paramDescription:
+Absolute temperature.
+:paramVisible:
+1
+:paramNoValues:
+
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,2.4,
+:Tags:
+noise,
+:Categories:
+EE3C11-2022-3-1,noise-3,all,EE3C11-Chap2,AE1noise1,noise,

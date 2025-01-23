@@ -1,0 +1,39 @@
+:ID:
+147
+:Type:
+TF
+:Title:
+147-1
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Please indicate if the following statement is true or false.
+If no DC current is allowed through the load of an amplifier, and no DC voltage is allowed across this load, this load should be AC coupled to the amplifier.
+:Feedback:
+AC coupling of the load to an amplifier prevents DC current flow through the load, or DC voltage across it.
+:Hint:
+Study Chapter 9.
+:Pool:
+biasing_AC_DC_Feedback
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+9,
+:Tags:
+biasing,
+:Categories:
+all,biasing_AC_DC_feedback,EE3C11-2022-2-5,EE3C11-2022-2,EE3C11-Chap9,

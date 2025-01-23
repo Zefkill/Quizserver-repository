@@ -1,0 +1,39 @@
+:ID:
+410
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+Select if the following statement is True or False.
+The number of poles of a network is equal to the number of independent capacitors voltages plus the number of independent inductor currents.
+:Feedback:
+
+:Hint:
+
+:Pool:
+EE3C11-poles-1
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+18,
+:Tags:
+poles and zeros,
+:Categories:
+EE3C11-2022-1-3,all,EE3C11-level-1,EE3C11-2022,

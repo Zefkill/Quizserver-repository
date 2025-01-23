@@ -1,0 +1,82 @@
+:ID:
+21
+:Type:
+MC
+:Title:
+
+:Points:
+44
+:Time:
+10
+:Difficulty:
+4
+:Image:
+vFollowerOpamp.svg
+:QuestionText:
+The figure above shows the circuit of a voltage follower with an operational amplifier. The voltage follower is driven from the signal source $V_s$ that has a source resistance $R_s$. The load of this voltage follower is a resistor with a resistance of $R_{\ell}$. The operational amplifier supplied from a symmetrical power suplly: $V_P=V_N=5$V.
+At the given supply voltages, the common-mode input voltage range of the operational amplifier equals $\pm 3$V. Its output voltage drive capability is $\pm 4$V and its output current drive capability is $\pm 30$mA. 
+What is the peak-to-peak value of the voltage that this voltage follower can deliver to a load of 150$\Omega$?
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+
+:NumberOptions:
+4
+:Option:
+$\pm 4$V
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+$\pm 3$V
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+$\pm 4.5$V
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Cannot be calculated because the output resistance of the opamp is not known.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+8,
+:Tags:
+operational amplifiers,
+:Categories:
+all,EE3C11-Chap8,OpAmps,

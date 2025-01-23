@@ -1,0 +1,68 @@
+:ID:
+31
+:Type:
+MC
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+An amplifier is modeled as a two-port. The T1 parameters of this two port satisfy the equation AD = BC. What can you say about this two-port:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+ABCD-4
+:NumberOptions:
+4
+:Option:
+The two-port is nonenergic.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The two-port is uni-lateral.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The input impedance depends on the load impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.3,
+:Tags:
+T1 matrix,
+:Categories:
+ABCD-4,EE3C11-level-1,all,EE3C11-Chap2,EE3C11-2022-1-1,

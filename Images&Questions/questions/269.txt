@@ -1,0 +1,129 @@
+:ID:
+269
+:Type:
+MS
+:Title:
+
+:Points:
+11
+:Time:
+11
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+A CS stage is biased at critical inversion in its saturation region. Two of those stages are used to form a differential pair.
+Select the correct statements below.
+:Feedback:
+See option feedback.
+:Hint:
+Study Chapter 6.
+:Pool:
+balanceNoise
+:NumberOptions:
+4
+:Option:
+None of the other options is true.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+The spectral density [$V^2/Hz$] of the equivalent input voltage noise source of the differential pair is twice that of the single CS stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The spectral density [$A^2/Hz$] of the equivalent input current noise source of the differential pair is twice that of the single CS stage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The spectral density [$A^2/Hz$] of the equivalent input current noise source of the differential pair is half that of the single CS stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The noise performance of two of these differential pairs in parallel equals that of the single CS stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The noise performance of the differential pair can be made equal to that of the single CS stage by doubling the operating current of its constituting devices.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The noise performance of the differential pair can be made equal to that of the single CS stage by doubling the operating current and the width of its constituting devices.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The noise performance of the differential pair can be made equal to that of the single CS stage by doubling the width of its constituting devices.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+6,
+:Tags:
+
+:Categories:
+all,balanceNoise,

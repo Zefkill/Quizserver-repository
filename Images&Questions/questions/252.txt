@@ -1,0 +1,38 @@
+:ID:
+252
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+During the design process, design decisions can be based upon the figure of merit.
+:Feedback:
+The figure of merit is the quotient of the weighted product of performance measures and the weighted product of cost factors. It is an important measure for selection solutions during the design process.
+:Hint:
+See Chapter 1.
+:Pool:
+SE
+:TRUE:
+true
+:TrueFeedback:
+Correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+1,
+:Tags:
+figure of merit,
+:Categories:
+EE3C11-Chap1,EE3C11-level-1,all,SE,EE3C11-2022-1-4,

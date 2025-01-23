@@ -1,0 +1,80 @@
+:ID:
+198
+:Type:
+MC
+:Title:
+
+:Points:
+12
+:Time:
+12
+:Difficulty:
+4
+:Image:
+
+:QuestionText:
+A photo-resistive sensor produces a current that is accurately related to the light intensity on the sensor. The resistance of the sensor strongly depends on the light intensity and the bias voltage of the sensor. In the absence of light and at nominal bias, the small-signal resistance of the sensor is approximately 5k$\Omega$. An amplifier should accurately convert the current from the sensor into a voltage that can be converted by an ADC. A full-scale current range of 10$\mu$A should map onto a full-scale ADC input voltage of 2.5V. The input impedance of the ADC is not accurately known. Give the T1 matrix of the two-port model of this amplifier.
+:Feedback:
+The amplifier needs to sense the source current and drive the load with a voltage. Since both the source impedance and the load impedance are not accurately known, an accurate transfer requires an amplifier with zero input impedance and zero output impedance. This is achieved if $C$ is the only nonzero parameter. Its value must equal the ratio of the source current and the corresponding load voltage: $4\cdot 10^{-6}$ [S]
+:Hint:
+See section 2.3.
+:Pool:
+ABCD-2
+:NumberOptions:
+4
+:Option:
+$\left(\begin{array}{cc} 20\times10^{-3} & 0\\ 0 & 0 \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+In this case, a voltage amplifier is used. The typical value of the source-to-load transfer is correct, but the transfer is proportional with the sensor impedance.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 0 & 0\\ 4\times10^{-6} & 0 \end{array} \right)$
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 0 & 0\\ 2.5\times10^{5} & 0 \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+In this case $C$ is the only nonzero parameter, but its value is the reciprocal of the required value.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 50 & 0\\ 0 & 0 \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+In this case, a voltage amplifier is used. The value of $A$ is the reciprocal of its required typical value and the transfer is proportional with the sensor impedance.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.3,
+:Tags:
+amplifier types,
+:Categories:
+EE3C11-2022-4-3,all,EE3C11-Chap2,0,ABCD-2,

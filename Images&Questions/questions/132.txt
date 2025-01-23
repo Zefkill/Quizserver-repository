@@ -1,0 +1,38 @@
+:ID:
+132
+:Type:
+TF
+:Title:
+132-1
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The noise figure of an amplifier is a measure for the deterioration of the signal-to-noise ratio, caused by the amplifier.
+:Feedback:
+
+:Hint:
+Study Chapter 2 and Chapter 19
+:Pool:
+noiseFigureTF
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,2.4,
+:Tags:
+noise,
+:Categories:
+all,AE1noise2,EE3C11-Chap2,EE3C11-2022-2,noise,

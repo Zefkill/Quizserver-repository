@@ -1,0 +1,104 @@
+:ID:
+398
+:Type:
+MS
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Select the conditions below under which the loop gain can be used to model the discrepancy between the ideal gain and the actual gain of a feedback amplifier.
+:Feedback:
+See option feedback
+:Hint:
+
+:Pool:
+FBmodel
+:NumberOptions:
+4
+:Option:
+The loop gain must be negative
+:OptionPoints:
+0
+:OptionFeedback:
+This is not required.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The absolute value of the loop gain must be much larger than unity.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not required.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The direct transfer must be much smaller than the ideal gain, over the operating range of the amplifier.
+:OptionPoints:
+100
+:OptionFeedback:
+This is required.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The asymptotic-gain must equal the ideal gain, over the operating range of the amplifier.
+:OptionPoints:
+100
+:OptionFeedback:
+This is required.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Non of the above options is required.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+The gain must approach the ideal gain, over the operating range of the amplifier.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not required
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+10,
+:Tags:
+
+:Categories:
+all,EE3C11-2022-2,EE3C11-2022-2-1,EE3C11-Chap10,

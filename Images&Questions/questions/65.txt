@@ -1,0 +1,81 @@
+:ID:
+65
+:Type:
+MS
+:Title:
+
+:Points:
+55
+:Time:
+15
+:Difficulty:
+5
+:Image:
+
+:QuestionText:
+Consider a negative feedback amplifier with a two-stage controller of which both stages are CS stages. Verification of the weak nonlinearity shows that the contribution of the first stage to the even order distortion needs to be reduced.
+Select measures that can be evaluated to achieve this:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+
+:NumberOptions:
+4
+:Option:
+Increase the quiescent current of the first stage
+:OptionPoints:
+33
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Replace the first stage with a balanced version
+:OptionPoints:
+33
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Increase the quiescent current of the second stage
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Insert a stage between the first and the second stage
+:OptionPoints:
+33
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+6,14,5,
+:Tags:
+multi-stage feedback amplifier design,
+:Categories:
+all,

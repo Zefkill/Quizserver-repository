@@ -1,0 +1,80 @@
+:ID:
+106
+:Type:
+MC
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+The function of the feedback network in a negative feedback amplifier is:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+FBsense-compare
+:NumberOptions:
+4
+:Option:
+To establish negative feedback.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+To create an accurate copy of the source signal from the load signal.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+To minimize the error in the source-to-load transfer.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+To attenuate the output signal
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+7.2,
+:Tags:
+negative feedback,
+:Categories:
+all,EE3C11-2022-1-2,EE3C11-Chap7,

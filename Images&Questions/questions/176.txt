@@ -1,0 +1,38 @@
+:ID:
+176
+:Type:
+TF
+:Title:
+176-1
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Determination of the total source-referred noise of a system that consists of a signal source cascaded with an amplifier requires knowledge of the input impedance of the amplifier.
+:Feedback:
+
+:Hint:
+
+:Pool:
+noise-2
+:TRUE:
+true
+:TrueFeedback:
+This is correct.
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,2.4,
+:Tags:
+noise,
+:Categories:
+EE3C11-2022-2-3,all,EE3C11-Chap2,EE3C11-2022-2,

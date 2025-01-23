@@ -1,0 +1,128 @@
+:ID:
+298
+:Type:
+MC
+:Title:
+
+:Points:
+9
+:Time:
+6
+:Difficulty:
+3
+:Image:
+pz1b.svg
+:QuestionText:
+Consider the current to voltage transfer $H(s)=\frac{V_o}{I_s}$ of the network shown in the figure and select the correct statement:
+:Feedback:
+The circuit exhibits one free capacitor voltage and one cut set of a capacitor and a current source. Hence it has one pole in the origin. The capacitor in series with the signal path is an open circuit at $s=0$. Hence, the transfer has a zero at this frequency. This zero coincides with the pole and makes it not observable.
+:Hint:
+See Chapter 18
+:Pool:
+pzSymbolic
+:NumberOptions:
+4
+:Option:
+The transfer has one pole in the origin and one zero in the origin.
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The transfer has one pole in the origin and one zero at $s=-\frac{1}{RC}$.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The transfer has one pole at $s=-\frac{1}{RC}$ and one zero at $s=-\frac{1}{RC}$.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The transfer has one pole at $s=-\frac{1}{RC}$ and one zero in the origin.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The transfer has no poles and one zero in the origin.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The transfer has no zeros and one pole in the origin.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The transfer has one pole at $s=-\frac{1}{RC}$ and no zeros.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The transfer has one zero at $s=-\frac{1}{RC}$ and no poles.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+18,
+:Tags:
+poles and zeros,
+:Categories:
+all,EE3C11-2022-3,PZsymbolic,pz,

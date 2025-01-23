@@ -1,0 +1,92 @@
+:ID:
+317
+:Type:
+MC
+:Title:
+
+:Points:
+15
+:Time:
+15
+:Difficulty:
+5
+:Image:
+transmissionLine-33-0.svg
+:QuestionText:
+The left figure shows a test setup for the determination of the load impedance of a transmission line. The figure on the right shows the voltage measured at the input of the transmission line. Please select the correct statement about the value of the load impedance.
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+TL-ZL
+:NumberOptions:
+4
+:Option:
+$ Z_{\ell}=\infty $
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$50 \Omega < Z_{\ell} < \infty$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$Z_{\ell} = 50 \Omega$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$0 < Z_{\ell} < 50\Omega$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$Z_{\ell} = 0$
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+IC,EE4109,AE1,EE3C11,
+:Chapters:
+
+:Tags:
+
+:Categories:
+all,TL,

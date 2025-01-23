@@ -1,0 +1,38 @@
+:ID:
+111
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+The price of a product can be taken as its figure of merit.
+:Feedback:
+The figure of merit is the quotient of the weighted product of performance measures and the weighted product of cost factors. It is an important measure for selection solutions during the design process.
+:Hint:
+See Chapter 1.
+:Pool:
+SE
+:TRUE:
+false
+:TrueFeedback:
+This is not correct!
+:FALSE:
+true
+:FalseFeedback:
+Correct!
+:Courses:
+AE1,EE3C11,
+:Chapters:
+1,
+:Tags:
+cost factors,figure of merit,
+:Categories:
+EE3C11-Chap1,EE3C11-level-1,all,SE,EE3C11-2022-1-4,

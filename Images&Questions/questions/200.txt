@@ -1,0 +1,38 @@
+:ID:
+200
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+Ideal amplifiers can always be modeled with a nullor.
+:Feedback:
+The functional behavior of an ideal amplifier can be modeled with a linear two-port of which at least one of the transmission-1 parameters is nonzero.
+:Hint:
+See Chapter 2
+:Pool:
+ampTypes
+:TRUE:
+false
+:TrueFeedback:
+This is not correct.
+:FALSE:
+true
+:FalseFeedback:
+This is correct!
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.1,
+:Tags:
+amplification,
+:Categories:
+EE3C11-2022-1-3,EE3C11-Chap2,all,

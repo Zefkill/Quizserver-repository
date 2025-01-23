@@ -1,0 +1,81 @@
+:ID:
+29
+:Type:
+MC
+:Title:
+
+:Points:
+33
+:Time:
+15
+:Difficulty:
+3
+:Image:
+PZdiffMirror-1.svg
+:QuestionText:
+Consider the circuit diagram of the signal path of an amplifier stage shown in the figure. The stage is driven from a resistive voltage source and loaded capacitively. Left from the figure four pole-zero patterns are shown: A ... D (o = zero, x = pole). 
+Which of those pole-zero patterns correctly describes the small-signal transfer from $V_s$ to $V_c$ of the amplifier stage. You may use the simplified small-signal model for the MOS transistors (shown below the circuit).
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+mosMirrorPZ
+:NumberOptions:
+4
+:Option:
+A
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+B
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+C
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+D
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+EE4109,
+:Chapters:
+13,5,
+:Tags:
+poles and zeros,
+:Categories:
+all,pz,

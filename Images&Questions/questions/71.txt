@@ -1,0 +1,80 @@
+:ID:
+71
+:Type:
+MS
+:Title:
+
+:Points:
+22
+:Time:
+5
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+Select which performance aspects can be improved by replacing a CS stage with a complementary parallel stage.
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+
+:NumberOptions:
+4
+:Option:
+Accuracy
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Linearity
+:OptionPoints:
+50
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Noise
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Power efficiency
+:OptionPoints:
+50
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+6,
+:Tags:
+balancing,
+:Categories:
+all,

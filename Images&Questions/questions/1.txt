@@ -1,0 +1,81 @@
+:ID:
+1
+:Type:
+MC
+:Title:
+
+:Points:
+6
+:Time:
+5
+:Difficulty:
+2
+:Image:
+biasedCSstageMod.svg
+:QuestionText:
+The figure above shows a biased transistor stage with a signal source ($V_s$ and $R_s$) and a load resistor with a resistance $R_{\ell}$. The values $I_{GS}$ and $V_{GS}$ of the input bias sources have been assigned such that the zero-signal drain-source current $I_{DS}$ equals 100$\mu$A and the zero-signal drain-source voltage $V_{DS}$ equals 0.9V.
+Which output bias source will deliver power in the quiescent operating point:
+:Feedback:
+A network element delivers power if $\frac{1}{T}\int_{-T/2}^{T/2}v(t)i(t)dt<0$, where $v(t)$ is the element's branch voltage, $i(t)$ its branch current and $T$ the time interval of interest.
+:Hint:
+Study Chapter 3 and Chapter 18.
+:Pool:
+bias4sources
+:NumberOptions:
+4
+:Option:
+The voltage source
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The current source
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Both
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Undetermined
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+3,
+:Tags:
+biasing,
+:Categories:
+all,bias4sources,

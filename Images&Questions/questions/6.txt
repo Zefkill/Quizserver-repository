@@ -1,0 +1,85 @@
+:ID:
+6
+:Type:
+MC
+:Title:
+
+:Points:
+55
+:Time:
+15
+:Difficulty:
+5
+:Image:
+
+:QuestionText:
+Consider a negative feedback amplifier with a two-stage controller of which both stages are CS stages. Verification of the weak nonlinearity shows that the contribution of the first stage to the odd order distortion needs to be reduced.
+To this end the designer want to investigate the following options:
+A. Replace the first stage with its balanced version
+B. Insert a stage between the first and the second stage
+C. Increase the quiescent current of the first stage
+Which of these do you consider useful:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+
+:NumberOptions:
+4
+:Option:
+All proposed options
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Only B and C
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Only A and C
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+Only A
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+
+:Tags:
+multi-stage feedback amplifier design,
+:Categories:
+all,

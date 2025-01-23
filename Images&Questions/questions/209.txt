@@ -1,0 +1,38 @@
+:ID:
+209
+:Type:
+TF
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The power efficiency of a single-loop negative feedback amplifier at best equals that of its controller.
+:Feedback:
+
+:Hint:
+
+:Pool:
+FBcapabilities
+:TRUE:
+true
+:TrueFeedback:
+This is correct.
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+7.1,
+:Tags:
+negative feedback,
+:Categories:
+all,EE3C11-2022-2,EE3C11-2022-2-1,EE3C11-Chap7,

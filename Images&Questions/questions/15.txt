@@ -1,0 +1,80 @@
+:ID:
+15
+:Type:
+MC
+:Title:
+15-1
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+The ideal transimpedance amplifier has:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+ampTypes
+:NumberOptions:
+4
+:Option:
+infinite input impedance and zero output impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+zero input impedance and an infinite output impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+infinite input impedance and an infinite output impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+zero input impedance and zero output impedance
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.2,
+:Tags:
+amplification,
+:Categories:
+EE3C11-level-1,ampTypes,all,EE3C11-Chap2,EE3C11-2022-1-2,

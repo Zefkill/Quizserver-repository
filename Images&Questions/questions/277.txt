@@ -1,0 +1,40 @@
+:ID:
+277
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+An amplifier needs to have zero input impedance and an infinite output impedance.
+Please indicate if the following statement is true or false:
+The amplifier can be realized as a negative feedback amplifier with input shunt feedback and output shunt feedback.
+:Feedback:
+
+:Hint:
+
+:Pool:
+ampTypes-2
+:TRUE:
+false
+:TrueFeedback:
+This is not correct.
+:FALSE:
+true
+:FalseFeedback:
+This is correct!
+:Courses:
+AE1,EE3C11,
+:Chapters:
+7.2,
+:Tags:
+negative feedback,feedback configuration,
+:Categories:
+all,EE3C11-2022-2,EE3C11-2022-2-2,EE3C11-Chap7,

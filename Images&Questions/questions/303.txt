@@ -1,0 +1,81 @@
+:ID:
+303
+:Type:
+MC
+:Title:
+
+:Points:
+15
+:Time:
+15
+:Difficulty:
+5
+:Image:
+antennaAmpMirror.svg
+:QuestionText:
+The figure above shows an implementation of a CMOS active antenna. The signal source is a capacitive voltage source $\left( V_A \, C_A \right)$, where $C_A=5$pF. The load resistance $R_{\ell}$ and the output resistance $R_o$ are both $50\Omega$. 
+Please select the correct answer from the list below.
+:Feedback:
+See option feedback
+:Hint:
+Study Chapter 14
+:Pool:
+ActiveAntennaController
+:NumberOptions:
+4
+:Option:
+The contribution of the current mirror to the noise can be ignored because the first stage is a CS stage or a balanced CS stage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The contribution of the current mirror to the noise can be ignored if the transconductance of the transistors of this mirror is much smaller than that of the input stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The contribution of the current mirror to the noise can be ignored if the gain of the current mirror exceeds unity.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The contribution of the current mirror to the noise can be ignored if the gain of the current mirror is less than unity.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+14,19,
+:Tags:
+noise,
+:Categories:
+all,activeAntennaController,examEE4109AAnoWR,examEE4109AntennaAmp,

@@ -1,0 +1,97 @@
+:ID:
+216
+:Type:
+MS
+:Title:
+216-1
+:Points:
+16
+:Time:
+16
+:Difficulty:
+5
+:Image:
+
+:QuestionText:
+The open-circuit output voltage of a sensor shows an accurate relation with its input signal. An amplifier should accurately copy this information to its load. 
+The driving current of this load should accurately correspond with the input signal of the sensor.
+The amplifier can be represented as a two-port of which the T1 two-port parameters are linear, instantaneous and time-invariant (also: stationary or fixed).
+Which of those two-port parameters need(s) to be zero in the case in which both:
+1. The impedance of the sensor is accurately known, signal-independent and time-independent
+2. The load impedance is accurately known, signal-independent and time-independent
+:Feedback:
+In this case, all the transmission parameters of the amplifier as well as the source and load impedance are stationary, linear, instantaneous and accurately known. Hence, the source to load transfer will always be stationary, linear, instantaneous and accurate.
+:Hint:
+See section 2.3. For the definitions of system properties see section 17.2.
+:Pool:
+ABCD-1
+:NumberOptions:
+4
+:Option:
+A
+:OptionPoints:
+0
+:OptionFeedback:
+This is not required.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+B
+:OptionPoints:
+0
+:OptionFeedback:
+This is not required.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+C
+:OptionPoints:
+0
+:OptionFeedback:
+This is not required.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+D
+:OptionPoints:
+0
+:OptionFeedback:
+This is not required.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+None
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Courses:
+IC,EE3C11,
+:Chapters:
+2.3,
+:Tags:
+amplifier types,
+:Categories:
+all,EE3C11-Chap2,abcd1,ABCD-1,

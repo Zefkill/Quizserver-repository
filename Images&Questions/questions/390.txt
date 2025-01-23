@@ -1,0 +1,188 @@
+:ID:
+390
+:Type:
+MS
+:Title:
+390-1
+:Points:
+12
+:Time:
+12
+:Difficulty:
+3
+:Image:
+ampConfigsD6.svg
+:QuestionText:
+The figure above shows the configuration of a three-terminal feedback amplifier (input left, output right. Please select the statement(s) below that apply to this amplifier configuration.
+:Feedback:
+See option feedback
+:Hint:
+Study Chapter 7
+:Pool:
+ampConfigs
+:NumberOptions:
+13
+:Option:
+This amplifier has an infinite input impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This amplifier has zero input impedance.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The input impedance of this amplifier depends on the load impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This amplifier has zero output impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This amplifier has an infinite output impedance.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The output impedance of this amplifier depends on the source impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This amplifier establishes a source-to-load voltage transfer that does not depend on its source impedance and on its load impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This amplifier establishes a source-to-load current transfer that does not depend on its source impedance and on its load impedance.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This amplifier has an inverting transfer.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This amplifier establishes a source-to-load transadmittance that does not depend on its source impedance and on its load impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+This amplifier uses nonenergic feedback.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+This amplifier establishes a source-to-load transimpedance that does not depend on its source impedance and on its load impedance.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+None of the other options is correct.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Courses:
+AE1,EE3C11,
+:Chapters:
+7,
+:Tags:
+amplifier types,
+:Categories:
+all,EE3C11-2022-3,ampConfigs,EE3C11-Chap7,

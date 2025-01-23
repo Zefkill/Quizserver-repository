@@ -1,0 +1,38 @@
+:ID:
+2
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+The price of a product can be taken as its figure of merit.
+:Feedback:
+
+:Hint:
+
+:Pool:
+SE
+:TRUE:
+false
+:TrueFeedback:
+This is not correct.
+:FALSE:
+true
+:FalseFeedback:
+This is correct!
+:Courses:
+AE1,EE3C11,
+:Chapters:
+1,
+:Tags:
+figure of merit,
+:Categories:
+EE3C11-Chap1,EE3C11-level-1,all,SE,EE3C11-2022-1-4,

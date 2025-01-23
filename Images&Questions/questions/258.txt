@@ -1,0 +1,81 @@
+:ID:
+258
+:Type:
+MS
+:Title:
+Amplifier statements
+:Points:
+10
+:Time:
+10
+:Difficulty:
+3
+:Image:
+biasedCScombs-3.svg
+:QuestionText:
+The ideal (conceptual) amplifier has a linear transfer. The laws of superposition and homogeneity must hold. 
+Which of the circuits in the figure above may have an approximately linear transfer for small signals? The transistors are normally-off types. Their gate current equals zero, and all voltage sources and current sources have positive nonzero values.
+:Feedback:
+See option feedback.
+:Hint:
+Study Chapter 2 and 3.
+:Pool:
+amp-lin-bias
+:NumberOptions:
+4
+:Option:
+A.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+B.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+C.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+None of the circuits.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+
+:Tags:
+biasing,
+:Categories:
+all,amp-lin-bias,

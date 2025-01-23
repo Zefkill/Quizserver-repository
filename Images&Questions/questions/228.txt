@@ -1,0 +1,97 @@
+:ID:
+228
+:Type:
+MS
+:Title:
+228-1
+:Points:
+16
+:Time:
+16
+:Difficulty:
+5
+:Image:
+
+:QuestionText:
+The short-circuit output current of a sensor shows an accurate relation with its input signal. An amplifier should accurately copy this information to its load. 
+The driving current of this load should accurately correspond with the input signal of the sensor.
+The amplifier can be represented as a two-port of which the T1 two-port parameters are linear, instantaneous and time-invariant (also: stationary or fixed).
+Which of those two-port parameters need(s) to be zero in the case in which both:
+1. The impedance of the sensor is inaccurately known, signal-dependent or time-dependent
+2. The load impedance is accurately known, signal-independent and time-independent
+:Feedback:
+In this case the input impedance of the amplifier should be zero and the output impedance should not depend on the source impedance. This is the case if both $A$ and $B$ are zero.
+:Hint:
+See section 2.3. For the definitions of system properties see section 17.2.
+:Pool:
+ABCD-1
+:NumberOptions:
+4
+:Option:
+A
+:OptionPoints:
+100
+:OptionFeedback:
+This is required.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+B
+:OptionPoints:
+100
+:OptionFeedback:
+This is required.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+C
+:OptionPoints:
+0
+:OptionFeedback:
+This is not required.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+D
+:OptionPoints:
+0
+:OptionFeedback:
+This is not required.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+None
+:OptionPoints:
+0
+:OptionFeedback:
+This yields a transfer that depends on the source impedance.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Courses:
+IC,EE3C11,
+:Chapters:
+2.3,
+:Tags:
+amplifier types,
+:Categories:
+all,EE3C11-Chap2,abcd1,ABCD-1,

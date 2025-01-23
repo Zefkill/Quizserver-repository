@@ -1,0 +1,128 @@
+:ID:
+268
+:Type:
+MS
+:Title:
+
+:Points:
+11
+:Time:
+11
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+An N channel CS stage is biased at a drain-source current $I_{DS}$ and a drain-source voltage $V_{DS}$. This stage is connected in parallel with its P channel complementary stage. Select the correct statements from the list below.
+:Feedback:
+See option feedback
+:Hint:
+Study Chapter 6.
+:Pool:
+BalanceSS
+:NumberOptions:
+4
+:Option:
+None of the other statements is true.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+true
+:Option:
+The small-signal T1 matrix parameters of the single stage and the complementary parallel stage are identical.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The small-signal T1 matrix parameters A and D of the single stage and the complementary-parallel stage are identical.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The small-signal T1 matrix parameters B and C of the single stage and the complementary-parallel stage are identical.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+With their outputs shorted, the input impedance of the single stage and the complementary-parallel stage are identical.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+With their outputs left open, the input impedance of the complementary-parallel stage is half that of the single-ended stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The voltage gain factor of the complementary-parallel stage is twice that of the single-ended stage.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The transadmittance factor of the complementary-parallel stage is twice that of the single-ended stage.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+
+:Chapters:
+
+:Tags:
+
+:Categories:
+all,

@@ -1,0 +1,39 @@
+:ID:
+286
+:Type:
+TF
+:Title:
+
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+Please indicate if the following statement is correct:
+Input voltage comparison requires input series feedback.
+:Feedback:
+
+:Hint:
+
+:Pool:
+FBsense-compare
+:TRUE:
+true
+:TrueFeedback:
+
+:FALSE:
+false
+:FalseFeedback:
+
+:Courses:
+AE1,EE3C11,
+:Chapters:
+7.2,
+:Tags:
+negative feedback,feedback configuration,
+:Categories:
+all,EE3C11-Chap7,EE3C11-level-1,EE3C11-2022-1-4,

@@ -1,0 +1,81 @@
+:ID:
+304
+:Type:
+MC
+:Title:
+
+:Points:
+15
+:Time:
+15
+:Difficulty:
+5
+:Image:
+antennaAmpMirror.svg
+:QuestionText:
+The figure above shows an implementation of a CMOS active antenna. The signal source is a capacitive voltage source $\left( V_A \, C_A \right)$, where $C_A=5$pF. The load resistance $R_{\ell}$ and the output resistance $R_o$ are both $50\Omega$. 
+Please select the correct number of (observable) poles of the loop gain.
+:Feedback:
+See option feedback
+:Hint:
+Study Chapter 14
+:Pool:
+ActiveAntennaController
+:NumberOptions:
+4
+:Option:
+One observable pole.
+:OptionPoints:
+0
+:OptionFeedback:
+This not correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Two observable poles.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Three observable poles.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+Four observable poles.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+false
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+14,5,
+:Tags:
+poles and zeros,
+:Categories:
+all,activeAntennaController,examEE4109AAnoWR,examEE4109AntennaAmp,

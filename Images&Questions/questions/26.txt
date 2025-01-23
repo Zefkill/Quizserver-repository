@@ -1,0 +1,38 @@
+:ID:
+26
+:Type:
+TF
+:Title:
+26-1
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The noise figure of a noise-free amplifier driven from a source with a non-zero real part of its source impedance is unity or 0dB.
+:Feedback:
+
+:Hint:
+
+:Pool:
+noiseFigureTF
+:TRUE:
+true
+:TrueFeedback:
+This is correct!
+:FALSE:
+false
+:FalseFeedback:
+This is not correct.
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,2.4,
+:Tags:
+noise,
+:Categories:
+all,EE3C11-Chap2,EE3C11-2022-2,

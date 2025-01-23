@@ -1,0 +1,80 @@
+:ID:
+133
+:Type:
+MC
+:Title:
+133-1
+:Points:
+2
+:Time:
+2
+:Difficulty:
+1
+:Image:
+
+:QuestionText:
+The T1 matrix coefficient C is defined as the reciprocal value of:
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+ABCD-4
+:NumberOptions:
+4
+:Option:
+the voltage gain factor of a two-port.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+the transadmittance gain factor of a two-port.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+the transimpedance gain factor of a two-port.
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+the current gain factor of a two-port.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.3,
+:Tags:
+T1 matrix,
+:Categories:
+ABCD-4,EE3C11-level-1,all,EE3C11-Chap2,EE3C11-2022-1-1,

@@ -1,0 +1,81 @@
+:ID:
+141
+:Type:
+MS
+:Title:
+
+:Points:
+6
+:Time:
+5
+:Difficulty:
+2
+:Image:
+biasedCSstageNoValues.svg
+:QuestionText:
+The figure above shows a circuit of a biased transistor. The NMOS transistor is biased in an operating point in which all bias voltages and currents are positive. The values of the bias sources are selected such that in the absence of a signal no bias currents are flowing through the source and through the load.
+Consider the situation in which the source voltage $V_s$ is increasing from zero to some positive value. Which of the following statements is correct (can be more than one)?
+:Feedback:
+A network element delivers power if $\frac{1}{T}\int_{-T/2}^{T/2}v(t)i(t)dt<0$, where $v(t)$ is the element's branch voltage, $i(t)$ its branch current and $T$ the time interval of interest.
+:Hint:
+Study Chapter 3 and Chapter 18.
+:Pool:
+bias4sources
+:NumberOptions:
+4
+:Option:
+The power delivered by V2 is increasing for increasing values of $V_s$.
+:OptionPoints:
+50
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The power delivered by V2 is decreasing for increasing values of $V_s$.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The power dissipated in I2 is increasing for increasing values of $V_s$.
+:OptionPoints:
+50
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+The power dissipated in I2 is decreasing for increasing values of $V_s$.
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+EE4109,IC,
+:Chapters:
+18,3,
+:Tags:
+biasing,
+:Categories:
+all,bias4sources,

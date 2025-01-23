@@ -1,0 +1,38 @@
+:ID:
+83
+:Type:
+TF
+:Title:
+
+:Points:
+4
+:Time:
+4
+:Difficulty:
+2
+:Image:
+
+:QuestionText:
+The noise figure of a noise-free amplifier is zero ($-\infty$dB).
+:Feedback:
+
+:Hint:
+
+:Pool:
+noise-2
+:TRUE:
+false
+:TrueFeedback:
+This is not correct: in this case the noise figure can be undefined if the source is noise-free.
+:FALSE:
+true
+:FalseFeedback:
+This is correct!
+:Courses:
+AE1,EE3C11,
+:Chapters:
+19,2.4,
+:Tags:
+noise,
+:Categories:
+EE3C11-2022-2-3,all,EE3C11-Chap2,EE3C11-2022-2,

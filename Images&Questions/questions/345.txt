@@ -1,0 +1,69 @@
+:ID:
+345
+:Type:
+MC
+:Title:
+
+:Points:
+5
+:Time:
+5
+:Difficulty:
+2
+:Image:
+transmissionLineDC-oo.svg
+:QuestionText:
+The figure above shows a test circuit for the measurement of a DC resistance. The device under test is a lossless coaxial cable with its output left open.
+Please select the measurement result.
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+TL-DC
+:NumberOptions:
+4
+:Option:
+$50 \Omega$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$0 \Omega$
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\infty \Omega$
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+IC,EE4109,AE1,EE3C11,
+:Chapters:
+
+:Tags:
+
+:Categories:
+all,EE3C11-2022-2,TL,

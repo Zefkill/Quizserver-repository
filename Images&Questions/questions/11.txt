@@ -1,0 +1,92 @@
+:ID:
+11
+:Type:
+MC
+:Title:
+
+:Points:
+12
+:Time:
+12
+:Difficulty:
+4
+:Image:
+
+:QuestionText:
+A piezo transducer accurately converts mechanical force into electrical charge. The zero-charge, small-signal capacitance of the piezo equals 20pF. The $Q-V$ relation of this piezo is strongly nonlinear, depends on temperature and suffers from hysteresis. An amplifier is used to convert the electrical output quantity of this transducer into a voltage that drives an ADC. The input impedance of the ADC is not accurately known. Give the T1 matrix of the two-port model of the required amplifier if a charge of 100pC should evoke an output voltage of 5V.
+:Feedback:
+The amplifier should convert the charge of the piezo into a voltage across the load. The charge of the piezo is obtained by integrating the current of the piezo. Since both the source impedance and the load impedance are inaccurately known, both the input impedance and the output impedance if the amplifier should be zero. This requires $C$ to be the only nonzero parameter. Its value is the reciprocal value of the (integrating) current to voltage transfer, hence $20\cdot 10^{-12}s$.
+:Hint:
+See section 2.3.
+:Pool:
+ABCD-2
+:NumberOptions:
+4
+:Option:
+$\left(\begin{array}{cc} 0 & 0\\ \frac{5\times10^{10}}{s} & 0 \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+Correct parameter $C$ but the reciprocal of its desired value.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 0 & 0\\ 20\times10^{-12}s & 0 \end{array} \right)$
+:OptionPoints:
+100
+:OptionFeedback:
+Correct!
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 1 & 0\\ 0 & 0 \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+The typical value of the gain is OK, but the transfer is inversely proportional with the source capacitance.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 0 & 20\times10^{-12}s\\ 0 & 0 \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+Opposite parameter selected, combined with a differentiating source-to-load transfer. In this case, the transfer is depends on frequency and on the source and the load impedance.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Option:
+$\left(\begin{array}{cc} 0 & \frac{5\times10^{10}}{s}\\ 0 & 0 \end{array} \right)$
+:OptionPoints:
+0
+:OptionFeedback:
+Opposite parameter selected. In this case the transfer is depends on the source and the load impedance.
+:OptionRequired:
+true
+:OptionExpression:
+false
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+2.3,
+:Tags:
+amplifier types,
+:Categories:
+EE3C11-2022-4-3,all,EE3C11-Chap2,0,ABCD-2,

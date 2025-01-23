@@ -1,0 +1,80 @@
+:ID:
+100
+:Type:
+MS
+:Title:
+
+:Points:
+6
+:Time:
+22
+:Difficulty:
+2
+:Image:
+multiplier-gain.svg
+:QuestionText:
+A system as depicted in the figure above, consists of a multiplier. An input signal $x(t)$ is connected to one input of the multiplier, while a time-independent reference signal has been applied to the other input. The output signal $y(t)$ is observed at its output. Please indicate which of the following statements below is true.
+:Feedback:
+See option feedback.
+:Hint:
+
+:Pool:
+classificationOfSystems2
+:NumberOptions:
+4
+:Option:
+The system is linear
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+The system is time invariant (also: fixed or stationary)
+:OptionPoints:
+100
+:OptionFeedback:
+This is correct!
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+The system is dynamic
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Option:
+The system is unstable
+:OptionPoints:
+0
+:OptionFeedback:
+This is not correct.
+:OptionRequired:
+true
+:OptionExpression:
+0
+:OptionUnique:
+false
+:Courses:
+AE1,EE3C11,
+:Chapters:
+17,
+:Tags:
+system modeling,
+:Categories:
+all,EE3C11-2022-2,
